@@ -1,0 +1,49 @@
+body{ padding:10px;}
+/*
+ wxy  定义表格样式
+*/
+
+	.wxytable{
+		border-collapse:collapse;	
+ 		}
+		.wxytable td{
+		border:1px dotted #eee;
+		line-height:30px;
+		padding:2px;
+		}
+		.jiange20{
+		margin-bottom:20px;
+		}
+		.jiange15{
+		margin-bottom:15px;
+		}
+		.jiange10{
+		margin-bottom:10px;
+		}
+		.right10{
+		margin-right:10px;
+		}
+ 		.right15{
+		margin-right:15px;
+		}
+ 		.right20{
+		margin-right:15px;
+		}	
+	
+/*一些颜色*/	
+				
+		.wgreen{
+		color:green
+		}	
+		.wred{
+		color:red
+		}
+		.wblue{
+		color:blue}
+		
+/*虚线*/
+
+.wxian{
+border-top:1px dotted red;
+margin-top:3px;
+}		

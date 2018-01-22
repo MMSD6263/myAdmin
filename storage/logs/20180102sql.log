@@ -1,0 +1,784 @@
+[2018-01-02 11:34:04] select * from `fb_admin` where `username` = 'admin' and `password` = '203b6d1f2a502c540000' limit 1
+[2018-01-02 11:34:04] select `powers` from `fb_role` where `id` = '1' limit 1
+[2018-01-02 11:34:04] select `name` from `fb_node` where `pid` > '0' limit 1
+[2018-01-02 11:34:04] update `fb_admin` set `last_time` = '1514864044', `last_ip` = '192.168.0.53' where `username` = 'admin' and `password` = '203b6d1f2a502c540000' and (`id` = '24') limit 1
+admin[2018-01-02 11:34:05] select `ctime`, `clicks`, `share`, `inter_access`, `read_article`, `histexternal_accessry` from `fb_operating` where `ctime` >= '1512272045' and `ctime` <= '1514822400' group by `ctime`
+admin[2018-01-02 11:34:06] select * from `fb_operating` where `ctime` >= '1512272046' and `ctime` <= '1514822400' order by `ctime` desc
+admin[2018-01-02 11:34:08] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 11:34:08] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 11:34:08] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 11:34:08] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 11:34:08] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 11:34:16] select `aid` from `fb_article` where (`original_id` = '0I26S4SQ') limit 1
+admin[2018-01-02 11:34:16] insert into `fb_article` (`title`, `content`, `small_pic`, `ctime`, `article_status`, `original_id`) values ('关于牛奶的是是非非终于盖棺定论了，你真的适合喝牛奶吗？
+
+ 牛奶作为我们餐桌上必不可少的饮品，带着它营养、健康、补钙、补充各种维生素的头衔进入了千家万户。
+
+', '
+<!-- wemedia true --><div id="imedia-article" class="imedia-article">
+<p><span>小静说：</span></p>
+<h2>
+<span> </span><span><a href="">牛奶</a>作为我们餐桌上必不可少的饮品，带着它营养、<a href="">健康</a>、<a href="">补钙</a>、补充各种维生素的头衔进入了千家万户。</span><span id="article-img-0" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056743836921.png"></span>
+</h2>
+<p><span> </span><span>老人喝牛奶补充钙质能够预防<a href="">骨质疏松</a>；成人喝牛</span>奶能够增强体质预防疾病；儿童喝牛奶能够给成长中的身体提供所必须的钙及蛋白质和氨基酸。<span id="article-img-1" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561497447631.png"></span></p>
+<p><span> </span><span>法国作为世界上有名的“奶酪”之都，各种牛奶产品玲琅满目，分布在大街小巷，光奶酪的品种就有</span><span>365</span><span>种之多。然而有一名叫特尔利·素格的法国营养学家却在他的研究报告里指出，如果一个人每天食用</span><span>2</span><span>份以上的<a href="">奶制品</a>不仅对身体无益反而有害，并且更容易导致骨质酥松。研究报告还指出，人类不适合饮用牛<a href="">奶制品</a>的原因在于我们人类并没有分解消化牛奶中乳糖的酶。因为人类的祖先并没有饮用牛奶的历史，人类开始饮用牛奶的历史也只能追溯到</span><span>6000</span><span>年前。在世界上也只有少部分古人体内含有能够消化牛奶中乳糖的酶。</span><span id="article-img-2" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640562123021735.png"></span></p>
+<p><span> </span><span>面对各种宣传频繁地袭击着我们的概念，以让我们更容易地接受并饮用牛奶。更多的人因为饮用了过量的牛奶而患上了胃病、<a href="">关节炎</a>、哮喘、<a href="">过敏</a>等等疾病。然而患上这些疾病的人们却不能把病因与饮用过量的牛奶联系起来。</span><span id="article-img-3" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056769815136.png"></span></p>
+<p><span> </span><span>在这里我们可以自测一下，有没有人空腹一饮用牛奶会引起腹泻？有没有人因喝了牛奶导致肚子胀痛？有没有人因为饮用牛奶后肚子咕咕作响？这些症状都是因为缺少分解消化乳糖的酶引起的。因为乳糖的不吸收，而进入肠道时会分解成为二氧化碳和水，过多的二氧化碳气体就会引起涨肚的不适感。甚至是腹痛、腹泻。</span><span id="article-img-4" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561525479817.png"></span></p>
+<p><span> </span><span>他在报告里还指出现在的牛奶生产会运用一些化学的方法来提高牛奶的产量。比如给奶牛使用<a href="">抗生素</a>以保证不得传染病，还会运用激素来提高牛奶产量等等。其中用高温加热的方法来<a href="">消毒</a>灭菌会破坏牛奶的蛋白质，导致钙质和一些矿物质不能被吸收，而给机体增加了没有必要的负担。所以在选择牛奶时要选择低温<a href="">消毒</a>灭菌的技术。加热牛奶时，最好也不要超过</span><span>50</span><span>°。</span><span id="article-img-5" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056993713881.png"></span></p>
+<p><span>在饮用牛奶时有不适症状的人们要如何避免呢？</span></p>
+<p><span>首先我们要每次减少饮用牛奶的量，每次少于</span><span>120</span><span>毫升为宜，一点点的适应，适应一段时间后，体内乳糖酶就可能提高，再坚持饮用就不会出现腹胀、腹痛和腹泻的症状了。</span><span id="article-img-6" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/151486405665832534.png"></span></p>
+<p><span> </span><span>婴幼儿在饮用牛奶时还存在一定的误区，比如人们觉得牛奶的浓度是越浓越好。其实孩子在生长发育期间对牛奶的需求是有比例的。应该按月份根据说明逐渐添加，不能家长觉得味淡就私自多添奶粉。导致牛奶中的比例失调。宝宝引用了比例失调的牛奶会导致腹泻、腹痛的症状。长期服用还会影响生长发育，体重不增，甚至引起急性缺血性肠炎。</span><span id="article-img-7" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056488808389.png"></span></p>
+<p><span>还有的人喜欢在牛奶中加糖，许多人认为在牛奶中添加糖会使牛奶更易于消化。因为糖的添加会增加碳水化合物的热量，有一定的好处。但是添加时要注意不要过量，一般</span><span>100</span><span>毫升的牛奶中添加</span><span>5-8</span><span>克最为适宜。添加过多的糖，导致身体无法吸收利用，就会囤积在体内，对于孩子来说会增加肥胖和<a href="">龋齿</a>以及<a href="">近视</a>的风险。如果要添加糖，首选是蔗糖。</span><span id="article-img-8" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561080350298.png"></span><span>值得一提的是，牛奶中加巧克力的方法最不提倡，因为牛奶中的钙在遇到巧克力中的草酸，会形成草酸钙。草酸钙能够导致<a href="">结石</a>的发生还会引起儿童发育迟缓等疾病。另外还要注意不要用牛奶来服用药物，因为用牛奶中的钙会和药物中的成分发生化学反应影响药效的同时还影响了<a href="">牛奶</a>的吸收。</span></p>
+</div>
+<p class="yidian-wm-copyright-bottom">本文为一点号作者原创，未经授权不得转载</p>
+', '["\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/1514864056743836921.png","\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640561497447631.png","\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640562123021735.png","\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/1514864056769815136.png"]', '1514864056', '0', '0I26S4SQ')
+admin[2018-01-02 11:34:17] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 11:34:17] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 11:34:17] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 11:34:17] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 11:34:17] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 11:34:18] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 11:34:18] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 11:34:22] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 11:34:22] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 11:34:22] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 11:34:22] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 11:34:22] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 11:34:22] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 11:41:21] update `fb_article` set `title` = '关于牛奶的是是非非终于盖棺定论了，你真的适合喝牛奶吗？ 牛奶作为我们餐桌上必不可少的饮品，带着它营养、健康、补钙、补充各种维生素的头衔进入了千家万户。', `content` = '<!-- wemedia true --><p>小静说：</p><h2><a href>牛奶</a>作为我们餐桌上必不可少的饮品，带着它营养、<a href>健康</a>、<a href>补钙</a>、补充各种维生素的头衔进入了千家万户。<span id="article-img-0" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056743836921.png"/></span></h2><p>老人喝牛奶补充钙质能够预防<a href>骨质疏松</a>；成人喝牛奶能够增强体质预防疾病；儿童喝牛奶能够给成长中的身体提供所必须的钙及蛋白质和氨基酸。<span id="article-img-1" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561497447631.png"/></span></p><p>法国作为世界上有名的“奶酪”之都，各种牛奶产品玲琅满目，分布在大街小巷，光奶酪的品种就有365种之多。然而有一名叫特尔利·素格的法国营养学家却在他的研究报告里指出，如果一个人每天食用2份以上的<a href>奶制品</a>不仅对身体无益反而有害，并且更容易导致骨质酥松。研究报告还指出，人类不适合饮用牛<a href>奶制品</a>的原因在于我们人类并没有分解消化牛奶中乳糖的酶。因为人类的祖先并没有饮用牛奶的历史，人类开始饮用牛奶的历史也只能追溯到6000年前。在世界上也只有少部分古人体内含有能够消化牛奶中乳糖的酶。<span id="article-img-2" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640562123021735.png"/></span></p><p>面对各种宣传频繁地袭击着我们的概念，以让我们更容易地接受并饮用牛奶。更多的人因为饮用了过量的牛奶而患上了胃病、<a href>关节炎</a>、哮喘、<a href>过敏</a>等等疾病。然而患上这些疾病的人们却不能把病因与饮用过量的牛奶联系起来。<span id="article-img-3" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056769815136.png"/></span></p><p>在这里我们可以自测一下，有没有人空腹一饮用牛奶会引起腹泻？有没有人因喝了牛奶导致肚子胀痛？有没有人因为饮用牛奶后肚子咕咕作响？这些症状都是因为缺少分解消化乳糖的酶引起的。因为乳糖的不吸收，而进入肠道时会分解成为二氧化碳和水，过多的二氧化碳气体就会引起涨肚的不适感。甚至是腹痛、腹泻。<span id="article-img-4" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561525479817.png"/></span></p><p>他在报告里还指出现在的牛奶生产会运用一些化学的方法来提高牛奶的产量。比如给奶牛使用<a href>抗生素</a>以保证不得传染病，还会运用激素来提高牛奶产量等等。其中用高温加热的方法来<a href>消毒</a>灭菌会破坏牛奶的蛋白质，导致钙质和一些矿物质不能被吸收，而给机体增加了没有必要的负担。所以在选择牛奶时要选择低温<a href>消毒</a>灭菌的技术。加热牛奶时，最好也不要超过50°。<span id="article-img-5" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056993713881.png"/></span></p><p>在饮用牛奶时有不适症状的人们要如何避免呢？</p><p>首先我们要每次减少饮用牛奶的量，每次少于120毫升为宜，一点点的适应，适应一段时间后，体内乳糖酶就可能提高，再坚持饮用就不会出现腹胀、腹痛和腹泻的症状了。<span id="article-img-6" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/151486405665832534.png"/></span></p><p>婴幼儿在饮用牛奶时还存在一定的误区，比如人们觉得牛奶的浓度是越浓越好。其实孩子在生长发育期间对牛奶的需求是有比例的。应该按月份根据说明逐渐添加，不能家长觉得味淡就私自多添奶粉。导致牛奶中的比例失调。宝宝引用了比例失调的牛奶会导致腹泻、腹痛的症状。长期服用还会影响生长发育，体重不增，甚至引起急性缺血性肠炎。<span id="article-img-7" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056488808389.png"/></span></p><p>还有的人喜欢在牛奶中加糖，许多人认为在牛奶中添加糖会使牛奶更易于消化。因为糖的添加会增加碳水化合物的热量，有一定的好处。但是添加时要注意不要过量，一般100毫升的牛奶中添加5-8克最为适宜。添加过多的糖，导致身体无法吸收利用，就会囤积在体内，对于孩子来说会增加肥胖和<a href>龋齿</a>以及<a href>近视</a>的风险。如果要添加糖，首选是蔗糖。<span id="article-img-8" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561080350298.png"/></span>值得一提的是，牛奶中加巧克力的方法最不提倡，因为牛奶中的钙在遇到巧克力中的草酸，会形成草酸钙。草酸钙能够导致<a href>结石</a>的发生还会引起儿童发育迟缓等疾病。另外还要注意不要用牛奶来服用药物，因为用牛奶中的钙会和药物中的成分发生化学反应影响药效的同时还影响了<a href>牛奶</a>的吸收。</p><p class="yidian-wm-copyright-bottom">本文为一点号作者原创，未经授权不得转载</p>', `tid` = '2', `type_name` = '健身', `cid` = '2', `column_name` = '力量訓練', `wid` = '1', `article_status` = '0', `uid` = '24', `author` = 'admin', `send_time` = '1514864062', `profile` = '', `small_pic` = '["\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640562123021735.png","\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/1514864056769815136.png"]' where (`aid` = '9685')
+admin[2018-01-02 11:41:24] update `fb_article` set `title` = '关于牛奶的是是非非终于盖棺定论了，你真的适合喝牛奶吗？ 牛奶作为我们餐桌上必不可少的饮品，带着它营养、健康、补钙、补充各种维生素的头衔进入了千家万户。', `content` = '<!-- wemedia true --><p>小静说：</p><h2><a href>牛奶</a>作为我们餐桌上必不可少的饮品，带着它营养、<a href>健康</a>、<a href>补钙</a>、补充各种维生素的头衔进入了千家万户。<span id="article-img-0" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056743836921.png"/></span></h2><p>老人喝牛奶补充钙质能够预防<a href>骨质疏松</a>；成人喝牛奶能够增强体质预防疾病；儿童喝牛奶能够给成长中的身体提供所必须的钙及蛋白质和氨基酸。<span id="article-img-1" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561497447631.png"/></span></p><p>法国作为世界上有名的“奶酪”之都，各种牛奶产品玲琅满目，分布在大街小巷，光奶酪的品种就有365种之多。然而有一名叫特尔利·素格的法国营养学家却在他的研究报告里指出，如果一个人每天食用2份以上的<a href>奶制品</a>不仅对身体无益反而有害，并且更容易导致骨质酥松。研究报告还指出，人类不适合饮用牛<a href>奶制品</a>的原因在于我们人类并没有分解消化牛奶中乳糖的酶。因为人类的祖先并没有饮用牛奶的历史，人类开始饮用牛奶的历史也只能追溯到6000年前。在世界上也只有少部分古人体内含有能够消化牛奶中乳糖的酶。<span id="article-img-2" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640562123021735.png"/></span></p><p>面对各种宣传频繁地袭击着我们的概念，以让我们更容易地接受并饮用牛奶。更多的人因为饮用了过量的牛奶而患上了胃病、<a href>关节炎</a>、哮喘、<a href>过敏</a>等等疾病。然而患上这些疾病的人们却不能把病因与饮用过量的牛奶联系起来。<span id="article-img-3" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056769815136.png"/></span></p><p>在这里我们可以自测一下，有没有人空腹一饮用牛奶会引起腹泻？有没有人因喝了牛奶导致肚子胀痛？有没有人因为饮用牛奶后肚子咕咕作响？这些症状都是因为缺少分解消化乳糖的酶引起的。因为乳糖的不吸收，而进入肠道时会分解成为二氧化碳和水，过多的二氧化碳气体就会引起涨肚的不适感。甚至是腹痛、腹泻。<span id="article-img-4" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561525479817.png"/></span></p><p>他在报告里还指出现在的牛奶生产会运用一些化学的方法来提高牛奶的产量。比如给奶牛使用<a href>抗生素</a>以保证不得传染病，还会运用激素来提高牛奶产量等等。其中用高温加热的方法来<a href>消毒</a>灭菌会破坏牛奶的蛋白质，导致钙质和一些矿物质不能被吸收，而给机体增加了没有必要的负担。所以在选择牛奶时要选择低温<a href>消毒</a>灭菌的技术。加热牛奶时，最好也不要超过50°。<span id="article-img-5" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056993713881.png"/></span></p><p>在饮用牛奶时有不适症状的人们要如何避免呢？</p><p>首先我们要每次减少饮用牛奶的量，每次少于120毫升为宜，一点点的适应，适应一段时间后，体内乳糖酶就可能提高，再坚持饮用就不会出现腹胀、腹痛和腹泻的症状了。<span id="article-img-6" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/151486405665832534.png"/></span></p><p>婴幼儿在饮用牛奶时还存在一定的误区，比如人们觉得牛奶的浓度是越浓越好。其实孩子在生长发育期间对牛奶的需求是有比例的。应该按月份根据说明逐渐添加，不能家长觉得味淡就私自多添奶粉。导致牛奶中的比例失调。宝宝引用了比例失调的牛奶会导致腹泻、腹痛的症状。长期服用还会影响生长发育，体重不增，甚至引起急性缺血性肠炎。<span id="article-img-7" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056488808389.png"/></span></p><p>还有的人喜欢在牛奶中加糖，许多人认为在牛奶中添加糖会使牛奶更易于消化。因为糖的添加会增加碳水化合物的热量，有一定的好处。但是添加时要注意不要过量，一般100毫升的牛奶中添加5-8克最为适宜。添加过多的糖，导致身体无法吸收利用，就会囤积在体内，对于孩子来说会增加肥胖和<a href>龋齿</a>以及<a href>近视</a>的风险。如果要添加糖，首选是蔗糖。<span id="article-img-8" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561080350298.png"/></span>值得一提的是，牛奶中加巧克力的方法最不提倡，因为牛奶中的钙在遇到巧克力中的草酸，会形成草酸钙。草酸钙能够导致<a href>结石</a>的发生还会引起儿童发育迟缓等疾病。另外还要注意不要用牛奶来服用药物，因为用牛奶中的钙会和药物中的成分发生化学反应影响药效的同时还影响了<a href>牛奶</a>的吸收。</p><p class="yidian-wm-copyright-bottom">本文为一点号作者原创，未经授权不得转载</p>', `tid` = '2', `type_name` = '健身', `cid` = '2', `column_name` = '力量訓練', `wid` = '1', `article_status` = '0', `uid` = '24', `author` = 'admin', `send_time` = '1514864062', `profile` = '', `small_pic` = '["\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640562123021735.png","\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/1514864056769815136.png"]' where (`aid` = '9685')
+admin[2018-01-02 11:41:28] update `fb_article` set `title` = '关于牛奶的是是非非终于盖棺定论了，你真的适合喝牛奶吗？ 牛奶作为我们餐桌上必不可少的饮品，带着它营养、健康、补钙、补充各种维生素的头衔进入了千家万户。', `content` = '<!-- wemedia true --><p>小静说：</p><h2><a href>牛奶</a>作为我们餐桌上必不可少的饮品，带着它营养、<a href>健康</a>、<a href>补钙</a>、补充各种维生素的头衔进入了千家万户。<span id="article-img-0" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056743836921.png"/></span></h2><p>老人喝牛奶补充钙质能够预防<a href>骨质疏松</a>；成人喝牛奶能够增强体质预防疾病；儿童喝牛奶能够给成长中的身体提供所必须的钙及蛋白质和氨基酸。<span id="article-img-1" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561497447631.png"/></span></p><p>法国作为世界上有名的“奶酪”之都，各种牛奶产品玲琅满目，分布在大街小巷，光奶酪的品种就有365种之多。然而有一名叫特尔利·素格的法国营养学家却在他的研究报告里指出，如果一个人每天食用2份以上的<a href>奶制品</a>不仅对身体无益反而有害，并且更容易导致骨质酥松。研究报告还指出，人类不适合饮用牛<a href>奶制品</a>的原因在于我们人类并没有分解消化牛奶中乳糖的酶。因为人类的祖先并没有饮用牛奶的历史，人类开始饮用牛奶的历史也只能追溯到6000年前。在世界上也只有少部分古人体内含有能够消化牛奶中乳糖的酶。<span id="article-img-2" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640562123021735.png"/></span></p><p>面对各种宣传频繁地袭击着我们的概念，以让我们更容易地接受并饮用牛奶。更多的人因为饮用了过量的牛奶而患上了胃病、<a href>关节炎</a>、哮喘、<a href>过敏</a>等等疾病。然而患上这些疾病的人们却不能把病因与饮用过量的牛奶联系起来。<span id="article-img-3" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056769815136.png"/></span></p><p>在这里我们可以自测一下，有没有人空腹一饮用牛奶会引起腹泻？有没有人因喝了牛奶导致肚子胀痛？有没有人因为饮用牛奶后肚子咕咕作响？这些症状都是因为缺少分解消化乳糖的酶引起的。因为乳糖的不吸收，而进入肠道时会分解成为二氧化碳和水，过多的二氧化碳气体就会引起涨肚的不适感。甚至是腹痛、腹泻。<span id="article-img-4" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561525479817.png"/></span></p><p>他在报告里还指出现在的牛奶生产会运用一些化学的方法来提高牛奶的产量。比如给奶牛使用<a href>抗生素</a>以保证不得传染病，还会运用激素来提高牛奶产量等等。其中用高温加热的方法来<a href>消毒</a>灭菌会破坏牛奶的蛋白质，导致钙质和一些矿物质不能被吸收，而给机体增加了没有必要的负担。所以在选择牛奶时要选择低温<a href>消毒</a>灭菌的技术。加热牛奶时，最好也不要超过50°。<span id="article-img-5" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056993713881.png"/></span></p><p>在饮用牛奶时有不适症状的人们要如何避免呢？</p><p>首先我们要每次减少饮用牛奶的量，每次少于120毫升为宜，一点点的适应，适应一段时间后，体内乳糖酶就可能提高，再坚持饮用就不会出现腹胀、腹痛和腹泻的症状了。<span id="article-img-6" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/151486405665832534.png"/></span></p><p>婴幼儿在饮用牛奶时还存在一定的误区，比如人们觉得牛奶的浓度是越浓越好。其实孩子在生长发育期间对牛奶的需求是有比例的。应该按月份根据说明逐渐添加，不能家长觉得味淡就私自多添奶粉。导致牛奶中的比例失调。宝宝引用了比例失调的牛奶会导致腹泻、腹痛的症状。长期服用还会影响生长发育，体重不增，甚至引起急性缺血性肠炎。<span id="article-img-7" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056488808389.png"/></span></p><p>还有的人喜欢在牛奶中加糖，许多人认为在牛奶中添加糖会使牛奶更易于消化。因为糖的添加会增加碳水化合物的热量，有一定的好处。但是添加时要注意不要过量，一般100毫升的牛奶中添加5-8克最为适宜。添加过多的糖，导致身体无法吸收利用，就会囤积在体内，对于孩子来说会增加肥胖和<a href>龋齿</a>以及<a href>近视</a>的风险。如果要添加糖，首选是蔗糖。<span id="article-img-8" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561080350298.png"/></span>值得一提的是，牛奶中加巧克力的方法最不提倡，因为牛奶中的钙在遇到巧克力中的草酸，会形成草酸钙。草酸钙能够导致<a href>结石</a>的发生还会引起儿童发育迟缓等疾病。另外还要注意不要用牛奶来服用药物，因为用牛奶中的钙会和药物中的成分发生化学反应影响药效的同时还影响了<a href>牛奶</a>的吸收。</p><p class="yidian-wm-copyright-bottom">本文为一点号作者原创，未经授权不得转载</p>', `tid` = '2', `type_name` = '健身', `cid` = '2', `column_name` = '力量訓練', `wid` = '1', `article_status` = '0', `uid` = '24', `author` = 'admin', `send_time` = '1514864062', `profile` = '', `small_pic` = '["\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640562123021735.png","\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/1514864056769815136.png"]' where (`aid` = '9685')
+admin[2018-01-02 11:49:24] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 11:49:24] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 11:49:24] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 11:49:24] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 11:49:24] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 11:49:24] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 11:55:16] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 11:55:16] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 11:55:16] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 11:55:16] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 11:55:16] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 11:55:16] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 11:55:22] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 11:55:22] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 11:55:22] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 11:55:22] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 11:55:22] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 11:55:23] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 11:55:23] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 11:55:25] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 11:55:25] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 11:55:25] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 11:55:25] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 11:55:25] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 11:55:25] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 11:56:51] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 11:56:51] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 11:56:51] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 11:56:51] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 11:56:51] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 11:56:51] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 11:57:01] select `ctime`, `clicks`, `share`, `inter_access`, `read_article`, `histexternal_accessry` from `fb_operating` where `ctime` >= '1512273421' and `ctime` <= '1514822400' group by `ctime`
+admin[2018-01-02 11:57:02] select * from `fb_operating` where `ctime` >= '1512273422' and `ctime` <= '1514822400' order by `ctime` desc
+admin[2018-01-02 11:57:04] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 11:57:04] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 11:57:04] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 11:57:04] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 11:57:04] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 11:57:05] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 11:57:05] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 11:57:17] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 11:57:17] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 11:57:17] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 11:57:17] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 11:57:17] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 11:57:17] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 11:58:02] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 11:58:02] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 11:58:02] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 11:58:02] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 11:58:02] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 11:58:03] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 11:58:03] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 11:58:09] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 11:58:54] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 11:58:54] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 11:58:54] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 11:58:54] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 11:58:54] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 11:58:54] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 12:03:39] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 12:03:39] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 12:03:39] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 12:03:39] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 12:03:39] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 12:03:39] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 12:10:14] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 12:10:14] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 12:10:14] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 12:10:14] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 12:10:14] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 12:10:14] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 12:10:20] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 12:10:20] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 12:10:20] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 12:10:20] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 12:10:20] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 12:10:21] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 12:10:21] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 12:10:23] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 12:10:23] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 12:10:23] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 12:10:23] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 12:10:23] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 12:10:23] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 12:10:47] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 12:10:47] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 12:10:47] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 12:10:47] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 12:10:47] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 12:10:47] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 12:11:41] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 12:11:41] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 12:11:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 12:11:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 12:11:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 12:11:41] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 12:11:58] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 12:11:58] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 12:11:58] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 12:11:58] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 12:11:58] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 12:11:58] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 12:27:57] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 12:27:57] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 12:27:57] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 12:27:57] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 12:27:57] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 12:27:57] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 12:29:30] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 12:29:30] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 12:29:30] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 12:29:30] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 12:29:30] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 12:29:30] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 12:29:45] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 12:29:45] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 12:29:45] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 12:29:45] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 12:29:45] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 12:29:45] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 12:30:11] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 12:30:11] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 12:30:11] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 12:30:11] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 12:30:11] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 12:30:11] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 12:30:16] update `fb_article` set `title` = '关于牛奶的是是非非终于盖棺定论了，你真的适合喝牛奶吗？ 牛奶作为我们餐桌上必不可少的饮品，带着它营养、健康、补钙、补充各种维生素的头衔进入了千家万户。', `content` = '<!-- wemedia true --><p>小静说：</p><h2><a href>牛奶</a>作为我们餐桌上必不可少的饮品，带着它营养、<a href>健康</a>、<a href>补钙</a>、补充各种维生素的头衔进入了千家万户。<span id="article-img-0" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056743836921.png"/></span></h2><p>老人喝牛奶补充钙质能够预防<a href>骨质疏松</a>；成人喝牛奶能够增强体质预防疾病；儿童喝牛奶能够给成长中的身体提供所必须的钙及蛋白质和氨基酸。<span id="article-img-1" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561497447631.png"/></span></p><p>法国作为世界上有名的“奶酪”之都，各种牛奶产品玲琅满目，分布在大街小巷，光奶酪的品种就有365种之多。然而有一名叫特尔利·素格的法国营养学家却在他的研究报告里指出，如果一个人每天食用2份以上的<a href>奶制品</a>不仅对身体无益反而有害，并且更容易导致骨质酥松。研究报告还指出，人类不适合饮用牛<a href>奶制品</a>的原因在于我们人类并没有分解消化牛奶中乳糖的酶。因为人类的祖先并没有饮用牛奶的历史，人类开始饮用牛奶的历史也只能追溯到6000年前。在世界上也只有少部分古人体内含有能够消化牛奶中乳糖的酶。<span id="article-img-2" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640562123021735.png"/></span></p><p>面对各种宣传频繁地袭击着我们的概念，以让我们更容易地接受并饮用牛奶。更多的人因为饮用了过量的牛奶而患上了胃病、<a href>关节炎</a>、哮喘、<a href>过敏</a>等等疾病。然而患上这些疾病的人们却不能把病因与饮用过量的牛奶联系起来。<span id="article-img-3" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056769815136.png"/></span></p><p>在这里我们可以自测一下，有没有人空腹一饮用牛奶会引起腹泻？有没有人因喝了牛奶导致肚子胀痛？有没有人因为饮用牛奶后肚子咕咕作响？这些症状都是因为缺少分解消化乳糖的酶引起的。因为乳糖的不吸收，而进入肠道时会分解成为二氧化碳和水，过多的二氧化碳气体就会引起涨肚的不适感。甚至是腹痛、腹泻。<span id="article-img-4" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561525479817.png"/></span></p><p>他在报告里还指出现在的牛奶生产会运用一些化学的方法来提高牛奶的产量。比如给奶牛使用<a href>抗生素</a>以保证不得传染病，还会运用激素来提高牛奶产量等等。其中用高温加热的方法来<a href>消毒</a>灭菌会破坏牛奶的蛋白质，导致钙质和一些矿物质不能被吸收，而给机体增加了没有必要的负担。所以在选择牛奶时要选择低温<a href>消毒</a>灭菌的技术。加热牛奶时，最好也不要超过50°。<span id="article-img-5" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056993713881.png"/></span></p><p>在饮用牛奶时有不适症状的人们要如何避免呢？</p><p>首先我们要每次减少饮用牛奶的量，每次少于120毫升为宜，一点点的适应，适应一段时间后，体内乳糖酶就可能提高，再坚持饮用就不会出现腹胀、腹痛和腹泻的症状了。<span id="article-img-6" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/151486405665832534.png"/></span></p><p>婴幼儿在饮用牛奶时还存在一定的误区，比如人们觉得牛奶的浓度是越浓越好。其实孩子在生长发育期间对牛奶的需求是有比例的。应该按月份根据说明逐渐添加，不能家长觉得味淡就私自多添奶粉。导致牛奶中的比例失调。宝宝引用了比例失调的牛奶会导致腹泻、腹痛的症状。长期服用还会影响生长发育，体重不增，甚至引起急性缺血性肠炎。<span id="article-img-7" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056488808389.png"/></span></p><p>还有的人喜欢在牛奶中加糖，许多人认为在牛奶中添加糖会使牛奶更易于消化。因为糖的添加会增加碳水化合物的热量，有一定的好处。但是添加时要注意不要过量，一般100毫升的牛奶中添加5-8克最为适宜。添加过多的糖，导致身体无法吸收利用，就会囤积在体内，对于孩子来说会增加肥胖和<a href>龋齿</a>以及<a href>近视</a>的风险。如果要添加糖，首选是蔗糖。<span id="article-img-8" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561080350298.png"/></span>值得一提的是，牛奶中加巧克力的方法最不提倡，因为牛奶中的钙在遇到巧克力中的草酸，会形成草酸钙。草酸钙能够导致<a href>结石</a>的发生还会引起儿童发育迟缓等疾病。另外还要注意不要用牛奶来服用药物，因为用牛奶中的钙会和药物中的成分发生化学反应影响药效的同时还影响了<a href>牛奶</a>的吸收。</p><p class="yidian-wm-copyright-bottom">本文为一点号作者原创，未经授权不得转载</p>', `tid` = '2', `type_name` = '健身', `cid` = '2', `column_name` = '力量訓練', `wid` = '1', `article_status` = '0', `uid` = '24', `author` = 'admin', `send_time` = '1514867411', `profile` = '', `small_pic` = '["\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640562123021735.png"]' where (`aid` = '9685')
+admin[2018-01-02 12:30:25] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 12:30:25] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 12:30:25] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 12:30:25] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 12:30:25] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 12:30:26] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 12:30:26] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 12:30:28] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 12:30:28] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 12:30:28] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 12:30:28] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 12:30:28] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 12:30:28] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 13:59:20] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 13:59:20] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 13:59:20] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 13:59:20] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 13:59:20] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 13:59:20] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 13:59:24] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 13:59:24] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 13:59:24] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 13:59:24] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 13:59:24] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 13:59:25] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 13:59:25] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 14:01:37] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:01:37] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 14:01:37] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 14:01:37] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 14:01:37] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 14:01:38] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 14:01:38] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 14:01:40] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:01:40] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:01:40] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:01:40] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:01:40] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:01:40] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:02:23] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:02:23] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:02:23] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:02:23] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:02:23] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:02:23] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:04:53] update `fb_article` set `title` = '关于牛奶的是是非非终于盖棺定论了，你真的适合喝牛奶吗？ 牛奶作为我们餐桌上必不可少的饮品，带着它营养、健康、补钙、补充各种维生素的头衔进入了千家万户。', `content` = '<!-- wemedia true --><p>小静说：</p><h2><a href>牛奶</a>作为我们餐桌上必不可少的饮品，带着它营养、<a href>健康</a>、<a href>补钙</a>、补充各种维生素的头衔进入了千家万户。<span id="article-img-0" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056743836921.png"/></span></h2><p>老人喝牛奶补充钙质能够预防<a href>骨质疏松</a>；成人喝牛奶能够增强体质预防疾病；儿童喝牛奶能够给成长中的身体提供所必须的钙及蛋白质和氨基酸。<span id="article-img-1" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561497447631.png"/></span></p><p>法国作为世界上有名的“奶酪”之都，各种牛奶产品玲琅满目，分布在大街小巷，光奶酪的品种就有365种之多。然而有一名叫特尔利·素格的法国营养学家却在他的研究报告里指出，如果一个人每天食用2份以上的<a href>奶制品</a>不仅对身体无益反而有害，并且更容易导致骨质酥松。研究报告还指出，人类不适合饮用牛<a href>奶制品</a>的原因在于我们人类并没有分解消化牛奶中乳糖的酶。因为人类的祖先并没有饮用牛奶的历史，人类开始饮用牛奶的历史也只能追溯到6000年前。在世界上也只有少部分古人体内含有能够消化牛奶中乳糖的酶。<span id="article-img-2" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640562123021735.png"/></span></p><p>面对各种宣传频繁地袭击着我们的概念，以让我们更容易地接受并饮用牛奶。更多的人因为饮用了过量的牛奶而患上了胃病、<a href>关节炎</a>、哮喘、<a href>过敏</a>等等疾病。然而患上这些疾病的人们却不能把病因与饮用过量的牛奶联系起来。<span id="article-img-3" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056769815136.png"/></span></p><p>在这里我们可以自测一下，有没有人空腹一饮用牛奶会引起腹泻？有没有人因喝了牛奶导致肚子胀痛？有没有人因为饮用牛奶后肚子咕咕作响？这些症状都是因为缺少分解消化乳糖的酶引起的。因为乳糖的不吸收，而进入肠道时会分解成为二氧化碳和水，过多的二氧化碳气体就会引起涨肚的不适感。甚至是腹痛、腹泻。<span id="article-img-4" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561525479817.png"/></span></p><p>他在报告里还指出现在的牛奶生产会运用一些化学的方法来提高牛奶的产量。比如给奶牛使用<a href>抗生素</a>以保证不得传染病，还会运用激素来提高牛奶产量等等。其中用高温加热的方法来<a href>消毒</a>灭菌会破坏牛奶的蛋白质，导致钙质和一些矿物质不能被吸收，而给机体增加了没有必要的负担。所以在选择牛奶时要选择低温<a href>消毒</a>灭菌的技术。加热牛奶时，最好也不要超过50°。<span id="article-img-5" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056993713881.png"/></span></p><p>在饮用牛奶时有不适症状的人们要如何避免呢？</p><p>首先我们要每次减少饮用牛奶的量，每次少于120毫升为宜，一点点的适应，适应一段时间后，体内乳糖酶就可能提高，再坚持饮用就不会出现腹胀、腹痛和腹泻的症状了。<span id="article-img-6" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/151486405665832534.png"/></span></p><p>婴幼儿在饮用牛奶时还存在一定的误区，比如人们觉得牛奶的浓度是越浓越好。其实孩子在生长发育期间对牛奶的需求是有比例的。应该按月份根据说明逐渐添加，不能家长觉得味淡就私自多添奶粉。导致牛奶中的比例失调。宝宝引用了比例失调的牛奶会导致腹泻、腹痛的症状。长期服用还会影响生长发育，体重不增，甚至引起急性缺血性肠炎。<span id="article-img-7" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056488808389.png"/></span></p><p>还有的人喜欢在牛奶中加糖，许多人认为在牛奶中添加糖会使牛奶更易于消化。因为糖的添加会增加碳水化合物的热量，有一定的好处。但是添加时要注意不要过量，一般100毫升的牛奶中添加5-8克最为适宜。添加过多的糖，导致身体无法吸收利用，就会囤积在体内，对于孩子来说会增加肥胖和<a href>龋齿</a>以及<a href>近视</a>的风险。如果要添加糖，首选是蔗糖。<span id="article-img-8" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561080350298.png"/></span>值得一提的是，牛奶中加巧克力的方法最不提倡，因为牛奶中的钙在遇到巧克力中的草酸，会形成草酸钙。草酸钙能够导致<a href>结石</a>的发生还会引起儿童发育迟缓等疾病。另外还要注意不要用牛奶来服用药物，因为用牛奶中的钙会和药物中的成分发生化学反应影响药效的同时还影响了<a href>牛奶</a>的吸收。</p><p class="yidian-wm-copyright-bottom">本文为一点号作者原创，未经授权不得转载</p>', `tid` = '2', `type_name` = '健身', `cid` = '2', `column_name` = '力量訓練', `wid` = '1', `article_status` = '0', `uid` = '24', `author` = 'admin', `send_time` = '1514872943', `profile` = '', `small_pic` = '["\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640562123021735.png",".\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640561286058981.png"]' where (`aid` = '9685')
+admin[2018-01-02 14:08:21] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:11:32] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:11:46] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:11:46] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:11:46] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:11:46] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:11:46] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:11:46] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:13:27] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:13:27] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:13:27] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:13:27] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:13:27] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:13:27] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:14:24] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:14:24] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:14:24] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:14:24] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:14:24] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:14:24] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:15:50] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:15:50] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:15:50] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:15:50] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:15:50] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:15:50] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:17:18] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:17:18] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:17:18] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:17:18] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:17:18] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:17:18] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:21:03] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:21:03] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:21:03] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:21:03] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:21:03] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:21:03] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:21:12] update `fb_article` set `title` = '关于牛奶的是是非非终于盖棺定论了，你真的适合喝牛奶吗？ 牛奶作为我们餐桌上必不可少的饮品，带着它营养、健康、补钙、补充各种维生素的头衔进入了千家万户。', `content` = '<!-- wemedia true --><p>小静说：</p><h2><a href>牛奶</a>作为我们餐桌上必不可少的饮品，带着它营养、<a href>健康</a>、<a href>补钙</a>、补充各种维生素的头衔进入了千家万户。<span id="article-img-0" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056743836921.png"/></span></h2><p>老人喝牛奶补充钙质能够预防<a href>骨质疏松</a>；成人喝牛奶能够增强体质预防疾病；儿童喝牛奶能够给成长中的身体提供所必须的钙及蛋白质和氨基酸。<span id="article-img-1" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561497447631.png"/></span></p><p>法国作为世界上有名的“奶酪”之都，各种牛奶产品玲琅满目，分布在大街小巷，光奶酪的品种就有365种之多。然而有一名叫特尔利·素格的法国营养学家却在他的研究报告里指出，如果一个人每天食用2份以上的<a href>奶制品</a>不仅对身体无益反而有害，并且更容易导致骨质酥松。研究报告还指出，人类不适合饮用牛<a href>奶制品</a>的原因在于我们人类并没有分解消化牛奶中乳糖的酶。因为人类的祖先并没有饮用牛奶的历史，人类开始饮用牛奶的历史也只能追溯到6000年前。在世界上也只有少部分古人体内含有能够消化牛奶中乳糖的酶。<span id="article-img-2" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640562123021735.png"/></span></p><p>面对各种宣传频繁地袭击着我们的概念，以让我们更容易地接受并饮用牛奶。更多的人因为饮用了过量的牛奶而患上了胃病、<a href>关节炎</a>、哮喘、<a href>过敏</a>等等疾病。然而患上这些疾病的人们却不能把病因与饮用过量的牛奶联系起来。<span id="article-img-3" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056769815136.png"/></span></p><p>在这里我们可以自测一下，有没有人空腹一饮用牛奶会引起腹泻？有没有人因喝了牛奶导致肚子胀痛？有没有人因为饮用牛奶后肚子咕咕作响？这些症状都是因为缺少分解消化乳糖的酶引起的。因为乳糖的不吸收，而进入肠道时会分解成为二氧化碳和水，过多的二氧化碳气体就会引起涨肚的不适感。甚至是腹痛、腹泻。<span id="article-img-4" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561525479817.png"/></span></p><p>他在报告里还指出现在的牛奶生产会运用一些化学的方法来提高牛奶的产量。比如给奶牛使用<a href>抗生素</a>以保证不得传染病，还会运用激素来提高牛奶产量等等。其中用高温加热的方法来<a href>消毒</a>灭菌会破坏牛奶的蛋白质，导致钙质和一些矿物质不能被吸收，而给机体增加了没有必要的负担。所以在选择牛奶时要选择低温<a href>消毒</a>灭菌的技术。加热牛奶时，最好也不要超过50°。<span id="article-img-5" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056993713881.png"/></span></p><p>在饮用牛奶时有不适症状的人们要如何避免呢？</p><p>首先我们要每次减少饮用牛奶的量，每次少于120毫升为宜，一点点的适应，适应一段时间后，体内乳糖酶就可能提高，再坚持饮用就不会出现腹胀、腹痛和腹泻的症状了。<span id="article-img-6" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/151486405665832534.png"/></span></p><p>婴幼儿在饮用牛奶时还存在一定的误区，比如人们觉得牛奶的浓度是越浓越好。其实孩子在生长发育期间对牛奶的需求是有比例的。应该按月份根据说明逐渐添加，不能家长觉得味淡就私自多添奶粉。导致牛奶中的比例失调。宝宝引用了比例失调的牛奶会导致腹泻、腹痛的症状。长期服用还会影响生长发育，体重不增，甚至引起急性缺血性肠炎。<span id="article-img-7" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056488808389.png"/></span></p><p>还有的人喜欢在牛奶中加糖，许多人认为在牛奶中添加糖会使牛奶更易于消化。因为糖的添加会增加碳水化合物的热量，有一定的好处。但是添加时要注意不要过量，一般100毫升的牛奶中添加5-8克最为适宜。添加过多的糖，导致身体无法吸收利用，就会囤积在体内，对于孩子来说会增加肥胖和<a href>龋齿</a>以及<a href>近视</a>的风险。如果要添加糖，首选是蔗糖。<span id="article-img-8" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561080350298.png"/></span>值得一提的是，牛奶中加巧克力的方法最不提倡，因为牛奶中的钙在遇到巧克力中的草酸，会形成草酸钙。草酸钙能够导致<a href>结石</a>的发生还会引起儿童发育迟缓等疾病。另外还要注意不要用牛奶来服用药物，因为用牛奶中的钙会和药物中的成分发生化学反应影响药效的同时还影响了<a href>牛奶</a>的吸收。</p><p class="yidian-wm-copyright-bottom">本文为一点号作者原创，未经授权不得转载</p>', `tid` = '2', `type_name` = '健身', `cid` = '2', `column_name` = '力量訓練', `wid` = '1', `article_status` = '0', `uid` = '24', `author` = 'admin', `send_time` = '1514874063', `profile` = '', `small_pic` = '["\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640562123021735.png",".\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640561286058981.png","\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640562064360867.png"]' where (`aid` = '9685')
+admin[2018-01-02 14:23:00] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:23:00] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:23:00] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:23:00] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:23:00] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:23:00] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:25:10] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:25:10] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:25:10] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:25:10] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:25:10] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:25:10] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:28:35] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:28:35] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:28:35] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:28:35] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:28:35] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:28:35] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:29:38] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:29:38] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:29:38] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:29:38] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:29:38] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:29:38] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:31:43] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:31:43] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:31:44] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:31:44] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:31:44] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:31:44] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:32:26] update `fb_article` set `title` = '关于牛奶的是是非非终于盖棺定论了，你真的适合喝牛奶吗？ 牛奶作为我们餐桌上必不可少的饮品，带着它营养、健康、补钙、补充各种维生素的头衔进入了千家万户。', `content` = '<!-- wemedia true --><p>小静说：</p><h2><a href>牛奶</a>作为我们餐桌上必不可少的饮品，带着它营养、<a href>健康</a>、<a href>补钙</a>、补充各种维生素的头衔进入了千家万户。<span id="article-img-0" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056743836921.png"/></span></h2><p>老人喝牛奶补充钙质能够预防<a href>骨质疏松</a>；成人喝牛奶能够增强体质预防疾病；儿童喝牛奶能够给成长中的身体提供所必须的钙及蛋白质和氨基酸。<span id="article-img-1" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561497447631.png"/></span></p><p>法国作为世界上有名的“奶酪”之都，各种牛奶产品玲琅满目，分布在大街小巷，光奶酪的品种就有365种之多。然而有一名叫特尔利·素格的法国营养学家却在他的研究报告里指出，如果一个人每天食用2份以上的<a href>奶制品</a>不仅对身体无益反而有害，并且更容易导致骨质酥松。研究报告还指出，人类不适合饮用牛<a href>奶制品</a>的原因在于我们人类并没有分解消化牛奶中乳糖的酶。因为人类的祖先并没有饮用牛奶的历史，人类开始饮用牛奶的历史也只能追溯到6000年前。在世界上也只有少部分古人体内含有能够消化牛奶中乳糖的酶。<span id="article-img-2" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640562123021735.png"/></span></p><p>面对各种宣传频繁地袭击着我们的概念，以让我们更容易地接受并饮用牛奶。更多的人因为饮用了过量的牛奶而患上了胃病、<a href>关节炎</a>、哮喘、<a href>过敏</a>等等疾病。然而患上这些疾病的人们却不能把病因与饮用过量的牛奶联系起来。<span id="article-img-3" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056769815136.png"/></span></p><p>在这里我们可以自测一下，有没有人空腹一饮用牛奶会引起腹泻？有没有人因喝了牛奶导致肚子胀痛？有没有人因为饮用牛奶后肚子咕咕作响？这些症状都是因为缺少分解消化乳糖的酶引起的。因为乳糖的不吸收，而进入肠道时会分解成为二氧化碳和水，过多的二氧化碳气体就会引起涨肚的不适感。甚至是腹痛、腹泻。<span id="article-img-4" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561525479817.png"/></span></p><p>他在报告里还指出现在的牛奶生产会运用一些化学的方法来提高牛奶的产量。比如给奶牛使用<a href>抗生素</a>以保证不得传染病，还会运用激素来提高牛奶产量等等。其中用高温加热的方法来<a href>消毒</a>灭菌会破坏牛奶的蛋白质，导致钙质和一些矿物质不能被吸收，而给机体增加了没有必要的负担。所以在选择牛奶时要选择低温<a href>消毒</a>灭菌的技术。加热牛奶时，最好也不要超过50°。<span id="article-img-5" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056993713881.png"/></span></p><p>在饮用牛奶时有不适症状的人们要如何避免呢？</p><p>首先我们要每次减少饮用牛奶的量，每次少于120毫升为宜，一点点的适应，适应一段时间后，体内乳糖酶就可能提高，再坚持饮用就不会出现腹胀、腹痛和腹泻的症状了。<span id="article-img-6" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/151486405665832534.png"/></span></p><p>婴幼儿在饮用牛奶时还存在一定的误区，比如人们觉得牛奶的浓度是越浓越好。其实孩子在生长发育期间对牛奶的需求是有比例的。应该按月份根据说明逐渐添加，不能家长觉得味淡就私自多添奶粉。导致牛奶中的比例失调。宝宝引用了比例失调的牛奶会导致腹泻、腹痛的症状。长期服用还会影响生长发育，体重不增，甚至引起急性缺血性肠炎。<span id="article-img-7" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056488808389.png"/></span></p><p>还有的人喜欢在牛奶中加糖，许多人认为在牛奶中添加糖会使牛奶更易于消化。因为糖的添加会增加碳水化合物的热量，有一定的好处。但是添加时要注意不要过量，一般100毫升的牛奶中添加5-8克最为适宜。添加过多的糖，导致身体无法吸收利用，就会囤积在体内，对于孩子来说会增加肥胖和<a href>龋齿</a>以及<a href>近视</a>的风险。如果要添加糖，首选是蔗糖。<span id="article-img-8" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561080350298.png"/></span>值得一提的是，牛奶中加巧克力的方法最不提倡，因为牛奶中的钙在遇到巧克力中的草酸，会形成草酸钙。草酸钙能够导致<a href>结石</a>的发生还会引起儿童发育迟缓等疾病。另外还要注意不要用牛奶来服用药物，因为用牛奶中的钙会和药物中的成分发生化学反应影响药效的同时还影响了<a href>牛奶</a>的吸收。</p><p class="yidian-wm-copyright-bottom">本文为一点号作者原创，未经授权不得转载</p>', `tid` = '2', `type_name` = '健身', `cid` = '2', `column_name` = '力量訓練', `wid` = '1', `article_status` = '0', `uid` = '24', `author` = 'admin', `send_time` = '1514874704', `profile` = '', `small_pic` = '["\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640562123021735.png",".\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640561286058981.png","\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640562064360867.png","smallpic\/2018\/01\/02\/1514864056\/1514864056490296802.png"]' where (`aid` = '9685')
+admin[2018-01-02 14:32:31] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:32:31] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:32:31] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:32:31] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:32:31] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:32:31] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:34:06] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:34:06] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:34:06] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:34:06] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:34:06] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:34:06] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:34:15] update `fb_article` set `title` = '关于牛奶的是是非非终于盖棺定论了，你真的适合喝牛奶吗？ 牛奶作为我们餐桌上必不可少的饮品，带着它营养、健康、补钙、补充各种维生素的头衔进入了千家万户。', `content` = '<!-- wemedia true --><p>小静说：</p><h2><a href>牛奶</a>作为我们餐桌上必不可少的饮品，带着它营养、<a href>健康</a>、<a href>补钙</a>、补充各种维生素的头衔进入了千家万户。<span id="article-img-0" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056743836921.png"/></span></h2><p>老人喝牛奶补充钙质能够预防<a href>骨质疏松</a>；成人喝牛奶能够增强体质预防疾病；儿童喝牛奶能够给成长中的身体提供所必须的钙及蛋白质和氨基酸。<span id="article-img-1" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561497447631.png"/></span></p><p>法国作为世界上有名的“奶酪”之都，各种牛奶产品玲琅满目，分布在大街小巷，光奶酪的品种就有365种之多。然而有一名叫特尔利·素格的法国营养学家却在他的研究报告里指出，如果一个人每天食用2份以上的<a href>奶制品</a>不仅对身体无益反而有害，并且更容易导致骨质酥松。研究报告还指出，人类不适合饮用牛<a href>奶制品</a>的原因在于我们人类并没有分解消化牛奶中乳糖的酶。因为人类的祖先并没有饮用牛奶的历史，人类开始饮用牛奶的历史也只能追溯到6000年前。在世界上也只有少部分古人体内含有能够消化牛奶中乳糖的酶。<span id="article-img-2" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640562123021735.png"/></span></p><p>面对各种宣传频繁地袭击着我们的概念，以让我们更容易地接受并饮用牛奶。更多的人因为饮用了过量的牛奶而患上了胃病、<a href>关节炎</a>、哮喘、<a href>过敏</a>等等疾病。然而患上这些疾病的人们却不能把病因与饮用过量的牛奶联系起来。<span id="article-img-3" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056769815136.png"/></span></p><p>在这里我们可以自测一下，有没有人空腹一饮用牛奶会引起腹泻？有没有人因喝了牛奶导致肚子胀痛？有没有人因为饮用牛奶后肚子咕咕作响？这些症状都是因为缺少分解消化乳糖的酶引起的。因为乳糖的不吸收，而进入肠道时会分解成为二氧化碳和水，过多的二氧化碳气体就会引起涨肚的不适感。甚至是腹痛、腹泻。<span id="article-img-4" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561525479817.png"/></span></p><p>他在报告里还指出现在的牛奶生产会运用一些化学的方法来提高牛奶的产量。比如给奶牛使用<a href>抗生素</a>以保证不得传染病，还会运用激素来提高牛奶产量等等。其中用高温加热的方法来<a href>消毒</a>灭菌会破坏牛奶的蛋白质，导致钙质和一些矿物质不能被吸收，而给机体增加了没有必要的负担。所以在选择牛奶时要选择低温<a href>消毒</a>灭菌的技术。加热牛奶时，最好也不要超过50°。<span id="article-img-5" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056993713881.png"/></span></p><p>在饮用牛奶时有不适症状的人们要如何避免呢？</p><p>首先我们要每次减少饮用牛奶的量，每次少于120毫升为宜，一点点的适应，适应一段时间后，体内乳糖酶就可能提高，再坚持饮用就不会出现腹胀、腹痛和腹泻的症状了。<span id="article-img-6" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/151486405665832534.png"/></span></p><p>婴幼儿在饮用牛奶时还存在一定的误区，比如人们觉得牛奶的浓度是越浓越好。其实孩子在生长发育期间对牛奶的需求是有比例的。应该按月份根据说明逐渐添加，不能家长觉得味淡就私自多添奶粉。导致牛奶中的比例失调。宝宝引用了比例失调的牛奶会导致腹泻、腹痛的症状。长期服用还会影响生长发育，体重不增，甚至引起急性缺血性肠炎。<span id="article-img-7" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056488808389.png"/></span></p><p>还有的人喜欢在牛奶中加糖，许多人认为在牛奶中添加糖会使牛奶更易于消化。因为糖的添加会增加碳水化合物的热量，有一定的好处。但是添加时要注意不要过量，一般100毫升的牛奶中添加5-8克最为适宜。添加过多的糖，导致身体无法吸收利用，就会囤积在体内，对于孩子来说会增加肥胖和<a href>龋齿</a>以及<a href>近视</a>的风险。如果要添加糖，首选是蔗糖。<span id="article-img-8" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561080350298.png"/></span>值得一提的是，牛奶中加巧克力的方法最不提倡，因为牛奶中的钙在遇到巧克力中的草酸，会形成草酸钙。草酸钙能够导致<a href>结石</a>的发生还会引起儿童发育迟缓等疾病。另外还要注意不要用牛奶来服用药物，因为用牛奶中的钙会和药物中的成分发生化学反应影响药效的同时还影响了<a href>牛奶</a>的吸收。</p><p class="yidian-wm-copyright-bottom">本文为一点号作者原创，未经授权不得转载</p>', `tid` = '2', `type_name` = '健身', `cid` = '2', `column_name` = '力量訓練', `wid` = '1', `article_status` = '0', `uid` = '24', `author` = 'admin', `send_time` = '1514874846', `profile` = '', `small_pic` = '["\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640562123021735.png",".\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640561286058981.png","\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640562064360867.png","smallpic\/2018\/01\/02\/1514864056\/1514864056490296802.png","\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/1514864056524502248.jpg"]' where (`aid` = '9685')
+admin[2018-01-02 14:34:19] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:34:19] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:34:19] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:34:19] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:34:19] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:34:19] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:35:37] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:35:37] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:35:37] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:35:37] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:35:37] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:35:37] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:35:51] update `fb_article` set `title` = '关于牛奶的是是非非终于盖棺定论了，你真的适合喝牛奶吗？ 牛奶作为我们餐桌上必不可少的饮品，带着它营养、健康、补钙、补充各种维生素的头衔进入了千家万户。', `content` = '<!-- wemedia true --><p>小静说：</p><h2><a href>牛奶</a>作为我们餐桌上必不可少的饮品，带着它营养、<a href>健康</a>、<a href>补钙</a>、补充各种维生素的头衔进入了千家万户。<span id="article-img-0" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056743836921.png"/></span></h2><p>老人喝牛奶补充钙质能够预防<a href>骨质疏松</a>；成人喝牛奶能够增强体质预防疾病；儿童喝牛奶能够给成长中的身体提供所必须的钙及蛋白质和氨基酸。<span id="article-img-1" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561497447631.png"/></span></p><p>法国作为世界上有名的“奶酪”之都，各种牛奶产品玲琅满目，分布在大街小巷，光奶酪的品种就有365种之多。然而有一名叫特尔利·素格的法国营养学家却在他的研究报告里指出，如果一个人每天食用2份以上的<a href>奶制品</a>不仅对身体无益反而有害，并且更容易导致骨质酥松。研究报告还指出，人类不适合饮用牛<a href>奶制品</a>的原因在于我们人类并没有分解消化牛奶中乳糖的酶。因为人类的祖先并没有饮用牛奶的历史，人类开始饮用牛奶的历史也只能追溯到6000年前。在世界上也只有少部分古人体内含有能够消化牛奶中乳糖的酶。<span id="article-img-2" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640562123021735.png"/></span></p><p>面对各种宣传频繁地袭击着我们的概念，以让我们更容易地接受并饮用牛奶。更多的人因为饮用了过量的牛奶而患上了胃病、<a href>关节炎</a>、哮喘、<a href>过敏</a>等等疾病。然而患上这些疾病的人们却不能把病因与饮用过量的牛奶联系起来。<span id="article-img-3" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056769815136.png"/></span></p><p>在这里我们可以自测一下，有没有人空腹一饮用牛奶会引起腹泻？有没有人因喝了牛奶导致肚子胀痛？有没有人因为饮用牛奶后肚子咕咕作响？这些症状都是因为缺少分解消化乳糖的酶引起的。因为乳糖的不吸收，而进入肠道时会分解成为二氧化碳和水，过多的二氧化碳气体就会引起涨肚的不适感。甚至是腹痛、腹泻。<span id="article-img-4" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561525479817.png"/></span></p><p>他在报告里还指出现在的牛奶生产会运用一些化学的方法来提高牛奶的产量。比如给奶牛使用<a href>抗生素</a>以保证不得传染病，还会运用激素来提高牛奶产量等等。其中用高温加热的方法来<a href>消毒</a>灭菌会破坏牛奶的蛋白质，导致钙质和一些矿物质不能被吸收，而给机体增加了没有必要的负担。所以在选择牛奶时要选择低温<a href>消毒</a>灭菌的技术。加热牛奶时，最好也不要超过50°。<span id="article-img-5" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056993713881.png"/></span></p><p>在饮用牛奶时有不适症状的人们要如何避免呢？</p><p>首先我们要每次减少饮用牛奶的量，每次少于120毫升为宜，一点点的适应，适应一段时间后，体内乳糖酶就可能提高，再坚持饮用就不会出现腹胀、腹痛和腹泻的症状了。<span id="article-img-6" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/151486405665832534.png"/></span></p><p>婴幼儿在饮用牛奶时还存在一定的误区，比如人们觉得牛奶的浓度是越浓越好。其实孩子在生长发育期间对牛奶的需求是有比例的。应该按月份根据说明逐渐添加，不能家长觉得味淡就私自多添奶粉。导致牛奶中的比例失调。宝宝引用了比例失调的牛奶会导致腹泻、腹痛的症状。长期服用还会影响生长发育，体重不增，甚至引起急性缺血性肠炎。<span id="article-img-7" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/1514864056488808389.png"/></span></p><p>还有的人喜欢在牛奶中加糖，许多人认为在牛奶中添加糖会使牛奶更易于消化。因为糖的添加会增加碳水化合物的热量，有一定的好处。但是添加时要注意不要过量，一般100毫升的牛奶中添加5-8克最为适宜。添加过多的糖，导致身体无法吸收利用，就会囤积在体内，对于孩子来说会增加肥胖和<a href>龋齿</a>以及<a href>近视</a>的风险。如果要添加糖，首选是蔗糖。<span id="article-img-8" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/02/1514864056/15148640561080350298.png"/></span>值得一提的是，牛奶中加巧克力的方法最不提倡，因为牛奶中的钙在遇到巧克力中的草酸，会形成草酸钙。草酸钙能够导致<a href>结石</a>的发生还会引起儿童发育迟缓等疾病。另外还要注意不要用牛奶来服用药物，因为用牛奶中的钙会和药物中的成分发生化学反应影响药效的同时还影响了<a href>牛奶</a>的吸收。</p><p class="yidian-wm-copyright-bottom">本文为一点号作者原创，未经授权不得转载</p>', `tid` = '2', `type_name` = '健身', `cid` = '2', `column_name` = '力量訓練', `wid` = '1', `article_status` = '0', `uid` = '24', `author` = 'admin', `send_time` = '1514874937', `profile` = '', `small_pic` = '["\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640562123021735.png",".\/src\/resource\/smallpic\/2018\/01\/02\/1514864056\/15148640561286058981.png"]' where (`aid` = '9685')
+admin[2018-01-02 14:47:44] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:48:42] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:51:06] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:51:06] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:51:06] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:51:06] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:51:06] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:51:06] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:51:32] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:51:32] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:51:32] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:51:32] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:51:32] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:51:32] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:53:56] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:53:56] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:53:56] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:53:56] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:53:56] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:53:56] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:57:29] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:57:29] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:57:29] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:57:29] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:57:29] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:57:29] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 14:57:43] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:57:43] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 14:57:43] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 14:57:43] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 14:57:43] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 14:57:45] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 14:57:45] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 14:57:47] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 14:57:47] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 14:57:47] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 14:57:47] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 14:57:47] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 14:57:47] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 15:02:27] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 15:02:27] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:02:27] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 15:02:27] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 15:02:27] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 15:02:27] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 15:02:30] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:02:30] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 15:02:30] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 15:02:30] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 15:02:30] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 15:02:31] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 15:02:31] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 15:02:43] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 15:02:43] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:02:43] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 15:02:43] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 15:02:43] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 15:02:43] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 15:03:12] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 15:03:12] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:03:12] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 15:03:12] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 15:03:12] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 15:03:12] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 15:04:44] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 15:04:44] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:04:44] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 15:04:44] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 15:04:44] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 15:04:44] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 15:04:51] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:04:51] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 15:04:51] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 15:04:51] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 15:04:51] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 15:04:52] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 15:04:52] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 15:04:56] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:04:56] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 15:04:56] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 15:04:56] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 15:04:56] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 15:04:57] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 15:04:57] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 15:05:27] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:05:27] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 15:05:27] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 15:05:27] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 15:05:27] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 15:05:28] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 15:05:28] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 15:05:32] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 15:05:32] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:05:32] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 15:05:32] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 15:05:32] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 15:05:32] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 15:06:56] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 15:06:56] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:06:56] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 15:06:56] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 15:06:56] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 15:06:56] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 15:07:03] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:07:03] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 15:07:03] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 15:07:03] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 15:07:03] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 15:07:04] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 15:07:04] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 15:07:05] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 15:07:05] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:07:05] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 15:07:05] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 15:07:05] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 15:07:05] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 15:34:37] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 15:34:37] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:34:37] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 15:34:37] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 15:34:37] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 15:34:37] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 15:34:47] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 15:34:47] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:34:47] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 15:34:47] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 15:34:47] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 15:34:47] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 15:35:22] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 15:35:22] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:35:22] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 15:35:22] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 15:35:22] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 15:35:22] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 15:38:34] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 15:38:34] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:38:34] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 15:38:34] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 15:38:34] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 15:38:34] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 15:38:52] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 15:38:52] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:38:52] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 15:38:52] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 15:38:52] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 15:38:52] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 15:38:59] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:38:59] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 15:38:59] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 15:38:59] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 15:38:59] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 15:39:00] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 15:39:00] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+[2018-01-02 15:39:18] select * from `fb_admin` where `username` = 'admin' and `password` = '203b6d1f2a502c540000' limit 1
+[2018-01-02 15:39:18] select `powers` from `fb_role` where `id` = '1' limit 1
+[2018-01-02 15:39:18] select `name` from `fb_node` where `pid` > '0' limit 1
+[2018-01-02 15:39:18] update `fb_admin` set `last_time` = '1514878758', `last_ip` = '192.168.0.53' where `username` = 'admin' and `password` = '203b6d1f2a502c540000' and (`id` = '24') limit 1
+admin[2018-01-02 15:39:19] select `ctime`, `clicks`, `share`, `inter_access`, `read_article`, `histexternal_accessry` from `fb_operating` where `ctime` >= '1512286759' and `ctime` <= '1514822400' group by `ctime`
+admin[2018-01-02 15:39:21] select * from `fb_operating` where `ctime` >= '1512286761' and `ctime` <= '1514822400' order by `ctime` desc
+admin[2018-01-02 15:39:23] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:39:23] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 15:39:23] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 15:39:23] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 15:39:23] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 15:39:24] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 15:39:24] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 15:39:25] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 15:39:25] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:39:25] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 15:39:25] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 15:39:25] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 15:39:25] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 15:50:10] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 15:50:10] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:50:10] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 15:50:10] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 15:50:10] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 15:50:10] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 15:51:06] select `ctime`, `clicks`, `share`, `inter_access`, `read_article`, `histexternal_accessry` from `fb_operating` where `ctime` >= '1512287466' and `ctime` <= '1514822400' group by `ctime`
+admin[2018-01-02 15:51:07] select * from `fb_operating` where `ctime` >= '1512287467' and `ctime` <= '1514822400' order by `ctime` desc
+admin[2018-01-02 15:51:09] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:51:09] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 15:51:09] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 15:51:09] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 15:51:09] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 15:51:10] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 15:51:10] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 15:51:13] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 15:51:13] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:51:13] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 15:51:13] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 15:51:13] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 15:51:13] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 15:59:39] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 15:59:39] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 15:59:39] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 15:59:39] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 15:59:39] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 15:59:39] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:00:29] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:00:29] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 16:00:29] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 16:00:29] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 16:00:29] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 16:00:30] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 16:00:30] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 16:00:32] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:00:32] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:00:32] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:00:32] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:00:32] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:00:32] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:02:24] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:02:24] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:02:24] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:02:24] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:02:24] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:02:24] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:02:29] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:02:29] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:02:29] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:02:29] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:02:29] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:02:29] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:03:19] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:03:19] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:03:19] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:03:19] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:03:19] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:03:19] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:03:50] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:03:50] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:03:50] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:03:50] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:03:50] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:03:50] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:15:28] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:15:28] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:15:28] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:15:28] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:15:28] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:15:28] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:16:28] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:16:28] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 16:16:28] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 16:16:28] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 16:16:28] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 16:16:29] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 16:16:29] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 16:16:32] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:16:32] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:16:32] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:16:32] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:16:32] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:16:32] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:20:33] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:20:33] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:20:33] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:20:33] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:20:33] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:20:33] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:20:39] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:20:39] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:20:39] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:20:39] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:20:39] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:20:39] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:20:46] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:20:46] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:20:46] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:20:46] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:20:46] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:20:46] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:23:24] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:23:24] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:23:24] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:23:24] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:23:24] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:23:24] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:23:45] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:23:45] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 16:23:45] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 16:23:45] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 16:23:45] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 16:23:46] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 16:23:46] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 16:23:49] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:23:49] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:23:49] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:23:49] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:23:49] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:23:49] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:24:39] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:24:39] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 16:24:39] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 16:24:39] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 16:24:39] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 16:24:40] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 16:24:40] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 16:24:41] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:24:41] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 16:24:41] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 16:24:41] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 16:24:41] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 16:24:42] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 16:24:42] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 16:24:44] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:24:44] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 16:24:44] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 16:24:44] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 16:24:44] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 16:24:45] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 16:24:45] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 16:24:53] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:24:53] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:24:53] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:24:53] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:24:53] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:24:53] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:25:38] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:25:38] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 16:25:38] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 16:25:38] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 16:25:38] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 16:25:39] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 16:25:39] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 16:25:46] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:25:46] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:25:46] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:25:46] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:25:46] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:25:46] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:26:10] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:26:10] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:26:10] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:26:10] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:26:10] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:26:10] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:27:44] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:27:44] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:27:44] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:27:44] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:27:44] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:27:44] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:29:23] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:29:23] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 16:29:23] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 16:29:23] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 16:29:24] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 16:29:25] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 16:29:25] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 16:29:27] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:29:27] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:29:27] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:29:27] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:29:27] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:29:27] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:32:01] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:32:01] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:32:01] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:32:01] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:32:01] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:32:01] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:32:27] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:32:27] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 16:32:27] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 16:32:27] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 16:32:27] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 16:32:28] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 16:32:28] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 16:32:32] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:32:32] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:32:32] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:32:32] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:32:32] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:32:32] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:34:17] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:34:17] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:34:17] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:34:17] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:34:17] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:34:17] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:34:23] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:34:23] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:34:23] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:34:23] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:34:23] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:34:23] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:35:30] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:35:30] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 16:35:30] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 16:35:30] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 16:35:30] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 16:35:31] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 16:35:31] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 16:35:36] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:35:36] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:35:36] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:35:36] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:35:36] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:35:36] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:42:28] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:42:28] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 16:42:28] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 16:42:28] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 16:42:28] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 16:42:29] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 16:42:29] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 16:42:31] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:42:31] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:42:31] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:42:31] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:42:31] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:42:31] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:51:28] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:51:28] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:51:28] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:51:28] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:51:28] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:51:28] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:51:33] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:51:33] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:51:33] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:51:33] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:51:33] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:51:33] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:54:16] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:54:16] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:54:16] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:54:16] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:54:16] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:54:16] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 16:54:23] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:54:23] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 16:54:23] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 16:54:23] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 16:54:23] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 16:54:24] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 16:54:24] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 16:55:55] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:55:55] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-02 16:55:55] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-02 16:55:55] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-02 16:55:55] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-02 16:55:56] select count(*) as aggregate from `fb_article`
+admin[2018-01-02 16:55:56] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-02 16:55:59] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 16:55:59] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 16:55:59] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 16:55:59] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 16:55:59] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 16:55:59] select `uid`, `user_account` from `fb_user`
+admin[2018-01-02 17:04:07] select * from `fb_article` where `aid` = '9685' limit 1
+admin[2018-01-02 17:04:07] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-02 17:04:07] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-02 17:04:07] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-02 17:04:07] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-02 17:04:07] select `uid`, `user_account` from `fb_user`
+[2018-01-02 18:23:23] select * from `fb_admin` where `username` = 'admin' and `password` = '203b6d1f2a502c540000' limit 1
+[2018-01-02 18:23:23] select `powers` from `fb_role` where `id` = '1' limit 1
+[2018-01-02 18:23:23] select `name` from `fb_node` where `pid` > '0' limit 1
+[2018-01-02 18:23:23] update `fb_admin` set `last_time` = '1514888603', `last_ip` = '192.168.0.53' where `username` = 'admin' and `password` = '203b6d1f2a502c540000' and (`id` = '24') limit 1
+admin[2018-01-02 18:23:24] select `ctime`, `clicks`, `share`, `inter_access`, `read_article`, `histexternal_accessry` from `fb_operating` where `ctime` >= '1512296604' and `ctime` <= '1514822400' group by `ctime`
+admin[2018-01-02 18:23:25] select * from `fb_operating` where `ctime` >= '1512296605' and `ctime` <= '1514822400' order by `ctime` desc

@@ -1,0 +1,154 @@
+[2017-11-30 17:12:04] select * from `fb_admin` where `username` = 'admin' and `password` = '203b6d1f2a502c540000' limit 1
+[2017-11-30 17:12:04] select `powers` from `fb_role` where `id` = '1' limit 1
+[2017-11-30 17:12:04] select `name` from `fb_node` where `pid` > '0' limit 1
+[2017-11-30 17:12:04] update `fb_admin` set `last_time` = '1512033124', `last_ip` = '192.168.0.38' where `username` = 'admin' and `password` = '203b6d1f2a502c540000' and (`id` = '24') limit 1
+admin[2017-11-30 17:12:06] select `ctime`, `clicks`, `share`, `inter_access`, `read_article`, `histexternal_accessry` from `fb_operating` where `ctime` >= '1509441126' and `ctime` <= '1511971200' group by `ctime`
+admin[2017-11-30 17:12:10] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-11-30 17:12:10] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2017-11-30 17:12:10] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2017-11-30 17:12:10] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2017-11-30 17:12:10] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2017-11-30 17:12:11] select count(*) as aggregate from `fb_article`
+admin[2017-11-30 17:12:11] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2017-11-30 17:12:16] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-11-30 17:12:17] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1'
+admin[2017-11-30 17:12:17] select * from `fb_advertising` where `adver_status` = '1' order by `wid` desc limit 20 offset 0
+admin[2017-11-30 17:12:17] select count(*) as aggregate from `fb_ad` where `style_status` = '1' and (`aid` = 'undefined')
+admin[2017-11-30 17:12:17] select * from `fb_ad` where `style_status` = '1' and (`aid` = 'undefined') and (`aid` = 'undefined') limit 20 offset 0
+admin[2017-11-30 17:43:25] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-11-30 17:44:08] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-11-30 17:44:08] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+admin[2017-11-30 17:44:08] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+admin[2017-11-30 17:44:08] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+admin[2017-11-30 17:47:18] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-11-30 17:47:18] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+admin[2017-11-30 17:47:58] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-11-30 17:47:58] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+admin[2017-11-30 17:49:12] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-11-30 17:51:27] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-11-30 17:51:27] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+admin[2017-11-30 17:51:27] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+admin[2017-11-30 17:51:27] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+admin[2017-11-30 17:52:43] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-11-30 17:52:43] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+admin[2017-11-30 17:52:43] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+admin[2017-11-30 17:52:43] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+admin[2017-11-30 17:54:12] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-11-30 17:54:12] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+admin[2017-11-30 17:54:12] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+admin[2017-11-30 17:54:12] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+admin[2017-11-30 17:55:28] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-11-30 17:55:28] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+admin[2017-11-30 17:55:28] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+admin[2017-11-30 17:55:28] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+admin[2017-11-30 17:59:11] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-11-30 17:59:11] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+admin[2017-11-30 17:59:11] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+admin[2017-11-30 17:59:11] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+admin[2017-11-30 18:00:12] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-11-30 18:00:12] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+admin[2017-11-30 18:00:12] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+admin[2017-11-30 18:00:12] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+[2017-11-30 18:01:00] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-11-30 18:01:00] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+[2017-11-30 18:01:00] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+[2017-11-30 18:01:00] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+[2017-11-30 18:01:43] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-11-30 18:01:43] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+[2017-11-30 18:01:43] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+[2017-11-30 18:01:43] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+[2017-11-30 18:02:20] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-11-30 18:02:20] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+[2017-11-30 18:02:20] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+[2017-11-30 18:02:20] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+[2017-11-30 18:04:20] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-11-30 18:04:20] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+[2017-11-30 18:04:20] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+[2017-11-30 18:04:20] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+[2017-11-30 18:04:22] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-11-30 18:04:22] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+[2017-11-30 18:04:22] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+[2017-11-30 18:04:22] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+[2017-11-30 18:04:45] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-11-30 18:04:45] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+[2017-11-30 18:04:45] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+[2017-11-30 18:04:45] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+[2017-11-30 18:04:47] select count(*) as aggregate from `fb_ad` where `style_status` = '1' and (`aid` = 'undefined')
+[2017-11-30 18:04:47] select * from `fb_ad` where `style_status` = '1' and (`aid` = 'undefined') and (`aid` = 'undefined') limit 20 offset 0
+[2017-11-30 18:04:47] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1'
+[2017-11-30 18:04:47] select * from `fb_advertising` where `adver_status` = '1' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:05:39] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-11-30 18:05:39] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+[2017-11-30 18:05:39] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+[2017-11-30 18:05:39] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+[2017-11-30 18:05:40] select count(*) as aggregate from `fb_ad` where `style_status` = '1' and (`aid` = 'undefined')
+[2017-11-30 18:05:40] select * from `fb_ad` where `style_status` = '1' and (`aid` = 'undefined') and (`aid` = 'undefined') limit 20 offset 0
+[2017-11-30 18:05:40] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1'
+[2017-11-30 18:05:40] select * from `fb_advertising` where `adver_status` = '1' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:07:53] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-11-30 18:07:53] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+[2017-11-30 18:07:53] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+[2017-11-30 18:07:53] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+[2017-11-30 18:07:55] select count(*) as aggregate from `fb_ad` where `style_status` = '1' and (`aid` = 'undefined')
+[2017-11-30 18:07:55] select * from `fb_ad` where `style_status` = '1' and (`aid` = 'undefined') and (`aid` = 'undefined') limit 20 offset 0
+[2017-11-30 18:07:55] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1'
+[2017-11-30 18:07:55] select * from `fb_advertising` where `adver_status` = '1' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:07:59] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1' and `wid` = '2'
+[2017-11-30 18:07:59] select * from `fb_advertising` where `adver_status` = '1' and `wid` = '2' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:08:03] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1' and `wid` = '4'
+[2017-11-30 18:08:03] select * from `fb_advertising` where `adver_status` = '1' and `wid` = '4' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:08:06] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1' and `wid` = '5'
+[2017-11-30 18:08:06] select * from `fb_advertising` where `adver_status` = '1' and `wid` = '5' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:08:10] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1' and `wid` = '1'
+[2017-11-30 18:08:10] select * from `fb_advertising` where `adver_status` = '1' and `wid` = '1' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:08:13] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1'
+[2017-11-30 18:08:13] select * from `fb_advertising` where `adver_status` = '1' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:08:35] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-11-30 18:08:35] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+[2017-11-30 18:08:35] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+[2017-11-30 18:08:35] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+[2017-11-30 18:08:36] select count(*) as aggregate from `fb_ad` where `style_status` = '1' and (`aid` = 'undefined')
+[2017-11-30 18:08:36] select * from `fb_ad` where `style_status` = '1' and (`aid` = 'undefined') and (`aid` = 'undefined') limit 20 offset 0
+[2017-11-30 18:08:36] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1'
+[2017-11-30 18:08:36] select * from `fb_advertising` where `adver_status` = '1' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:08:45] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-11-30 18:08:46] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+[2017-11-30 18:08:46] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+[2017-11-30 18:08:46] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+[2017-11-30 18:08:46] select count(*) as aggregate from `fb_ad` where `style_status` = '1' and (`aid` = 'undefined')
+[2017-11-30 18:08:47] select * from `fb_ad` where `style_status` = '1' and (`aid` = 'undefined') and (`aid` = 'undefined') limit 20 offset 0
+[2017-11-30 18:08:47] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1'
+[2017-11-30 18:08:47] select * from `fb_advertising` where `adver_status` = '1' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:08:53] select `wid`, `web_name` from `fb_website` where `tid` = '1' and `web_status` = '1'
+[2017-11-30 18:09:02] select `wid`, `web_name` from `fb_website` where `tid` = '1' and `web_status` = '1'
+[2017-11-30 18:10:02] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-11-30 18:10:02] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+[2017-11-30 18:10:02] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+[2017-11-30 18:10:02] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+[2017-11-30 18:10:03] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1'
+[2017-11-30 18:10:03] select * from `fb_advertising` where `adver_status` = '1' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:10:03] select count(*) as aggregate from `fb_ad` where `style_status` = '1' and (`aid` = 'undefined')
+[2017-11-30 18:10:03] select * from `fb_ad` where `style_status` = '1' and (`aid` = 'undefined') and (`aid` = 'undefined') limit 20 offset 0
+[2017-11-30 18:10:05] select `wid`, `web_name` from `fb_website` where `tid` = '1' and `web_status` = '1'
+[2017-11-30 18:10:30] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-11-30 18:10:30] select * from `fb_website` where (`tid` = '1' and `web_status` = '1')
+[2017-11-30 18:10:30] select * from `fb_website` where (`tid` = '2' and `web_status` = '1')
+[2017-11-30 18:10:30] select * from `fb_website` where (`tid` = '3' and `web_status` = '1')
+[2017-11-30 18:10:31] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1'
+[2017-11-30 18:10:31] select * from `fb_advertising` where `adver_status` = '1' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:10:31] select count(*) as aggregate from `fb_ad` where `style_status` = '1' and (`aid` = 'undefined')
+[2017-11-30 18:10:31] select * from `fb_ad` where `style_status` = '1' and (`aid` = 'undefined') and (`aid` = 'undefined') limit 20 offset 0
+[2017-11-30 18:10:35] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1' and `wid` = '2'
+[2017-11-30 18:10:35] select * from `fb_advertising` where `adver_status` = '1' and `wid` = '2' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:10:38] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1' and `wid` = '1'
+[2017-11-30 18:10:38] select * from `fb_advertising` where `adver_status` = '1' and `wid` = '1' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:10:45] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1' and `wid` = '4'
+[2017-11-30 18:10:45] select * from `fb_advertising` where `adver_status` = '1' and `wid` = '4' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:10:48] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1' and `wid` = '5'
+[2017-11-30 18:10:48] select * from `fb_advertising` where `adver_status` = '1' and `wid` = '5' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:10:53] select count(*) as aggregate from `fb_advertising` where `adver_status` = '1' and `wid` = '2'
+[2017-11-30 18:10:53] select * from `fb_advertising` where `adver_status` = '1' and `wid` = '2' order by `wid` desc limit 20 offset 0
+[2017-11-30 18:11:06] select count(*) as aggregate from `fb_ad` where `style_status` = '1' and (`aid` = '53')
+[2017-11-30 18:11:06] select * from `fb_ad` where `style_status` = '1' and (`aid` = '53') and (`aid` = '53') limit 20 offset 0
+[2017-11-30 18:11:10] select `style_content` from `fb_ad` where `sid` = '109'
+[2017-11-30 18:11:13] select `title`, `style_content`, `style_status`, `sort` from `fb_ad` where `sid` = '109'

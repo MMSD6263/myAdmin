@@ -1,0 +1,6 @@
+[2017-12-11 14:19:24] select * from `fb_admin` where `username` = 'admin' and `password` = '203b6d1f2a502c540000' limit 1
+[2017-12-11 14:19:24] select `powers` from `fb_role` where `id` = '1' limit 1
+[2017-12-11 14:19:24] select `name` from `fb_node` where `pid` > '0' limit 1
+[2017-12-11 14:19:24] update `fb_admin` set `last_time` = '1512973164', `last_ip` = '192.168.0.38' where `username` = 'admin' and `password` = '203b6d1f2a502c540000' and (`id` = '24') limit 1
+admin[2017-12-11 14:19:26] select `ctime`, `clicks`, `share`, `inter_access`, `read_article`, `histexternal_accessry` from `fb_operating` where `ctime` >= '1510381166' and `ctime` <= '1512921600' group by `ctime`
+admin[2017-12-11 14:19:27] select * from `fb_operating` where `ctime` >= '1510381167' and `ctime` <= '1512921600' order by `ctime` desc

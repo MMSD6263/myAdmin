@@ -1,0 +1,162 @@
+[2017-12-29 09:45:42] select * from `fb_admin` where `username` = 'admin' and `password` = '203b6d1f2a502c540000' limit 1
+[2017-12-29 09:45:42] select `powers` from `fb_role` where `id` = '1' limit 1
+[2017-12-29 09:45:42] select `name` from `fb_node` where `pid` > '0' limit 1
+[2017-12-29 09:45:42] update `fb_admin` set `last_time` = '1514511942', `last_ip` = '192.168.0.53' where `username` = 'admin' and `password` = '203b6d1f2a502c540000' and (`id` = '24') limit 1
+admin[2017-12-29 09:45:43] select `ctime`, `clicks`, `share`, `inter_access`, `read_article`, `histexternal_accessry` from `fb_operating` where `ctime` >= '1511919943' and `ctime` <= '1514476800' group by `ctime`
+admin[2017-12-29 09:45:44] select * from `fb_operating` where `ctime` >= '1511919944' and `ctime` <= '1514476800' order by `ctime` desc
+admin[2017-12-29 09:48:19] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-29 09:48:19] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2017-12-29 09:48:19] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2017-12-29 09:48:19] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2017-12-29 09:48:19] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2017-12-29 09:48:20] select count(*) as aggregate from `fb_article`
+admin[2017-12-29 09:48:20] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2017-12-29 09:48:30] select * from `fb_article` where `aid` = '9681' limit 1
+admin[2017-12-29 09:48:30] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-29 09:48:30] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-29 09:48:30] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-29 09:48:30] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-29 09:48:30] select `uid`, `user_account` from `fb_user`
+admin[2017-12-29 09:49:08] select * from `fb_article` where `aid` = '9681' limit 1
+admin[2017-12-29 09:49:08] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-29 09:49:08] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-29 09:49:08] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-29 09:49:08] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-29 09:49:08] select `uid`, `user_account` from `fb_user`
+admin[2017-12-29 09:49:42] select * from `fb_article` where `aid` = '9681' limit 1
+admin[2017-12-29 09:49:42] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-29 09:49:42] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-29 09:49:42] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-29 09:49:42] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-29 09:49:42] select `uid`, `user_account` from `fb_user`
+admin[2017-12-29 09:50:21] select * from `fb_article` where `aid` = '9681' limit 1
+admin[2017-12-29 09:50:21] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-29 09:50:21] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-29 09:50:21] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-29 09:50:21] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-29 09:50:21] select `uid`, `user_account` from `fb_user`
+admin[2017-12-29 09:50:46] select * from `fb_article` where `aid` = '9681' limit 1
+admin[2017-12-29 09:50:46] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-29 09:50:46] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-29 09:50:46] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-29 09:50:46] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-29 09:50:46] select `uid`, `user_account` from `fb_user`
+admin[2017-12-29 09:51:41] select * from `fb_article` where `aid` = '9681' limit 1
+admin[2017-12-29 09:51:41] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-29 09:51:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-29 09:51:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-29 09:51:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-29 09:51:41] select `uid`, `user_account` from `fb_user`
+admin[2017-12-29 09:52:14] select * from `fb_article` where `aid` = '9681' limit 1
+admin[2017-12-29 09:52:14] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-29 09:52:14] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-29 09:52:14] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-29 09:52:14] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-29 09:52:14] select `uid`, `user_account` from `fb_user`
+admin[2017-12-29 09:52:41] select * from `fb_article` where `aid` = '9681' limit 1
+admin[2017-12-29 09:52:41] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-29 09:52:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-29 09:52:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-29 09:52:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-29 09:52:41] select `uid`, `user_account` from `fb_user`
+admin[2017-12-29 09:53:54] select * from `fb_article` where `aid` = '9681' limit 1
+admin[2017-12-29 09:53:54] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-29 09:53:54] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-29 09:53:54] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-29 09:53:54] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-29 09:53:54] select `uid`, `user_account` from `fb_user`
+[2017-12-29 17:07:05] select * from `fb_article` where `aid` = '9681' limit 1
+[2017-12-29 17:07:19] select * from `fb_article` where `aid` = '9681' limit 1
+[2017-12-29 17:07:32] select * from `fb_article` where `aid` = '9681' limit 1
+[2017-12-29 17:07:56] select * from `fb_article` where `aid` = '9681' limit 1
+[2017-12-29 17:43:05] select * from `fb_article` where `aid` = '9681' limit 1
+[2017-12-29 17:43:05] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-12-29 17:43:05] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+[2017-12-29 17:43:05] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+[2017-12-29 17:43:05] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+[2017-12-29 17:43:05] select `uid`, `user_account` from `fb_user`
+[2017-12-29 17:43:18] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-12-29 17:43:18] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+[2017-12-29 17:43:18] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+[2017-12-29 17:43:18] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+[2017-12-29 17:43:18] select `uid`, `user_account` from `fb_user`
+[2017-12-29 17:45:06] select `aid` from `fb_article` where (`original_id` = '0I0a1Krk') limit 1
+[2017-12-29 17:56:26] select `aid` from `fb_article` where (`original_id` = '0I0a1Krk') limit 1
+[2017-12-29 18:00:37] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-12-29 18:00:37] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+[2017-12-29 18:00:37] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+[2017-12-29 18:00:37] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+[2017-12-29 18:00:37] select `uid`, `user_account` from `fb_user`
+[2017-12-29 18:00:59] select `aid` from `fb_article` where (`original_id` = '0I0a1Krk') limit 1
+[2017-12-29 18:05:54] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-12-29 18:05:54] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+[2017-12-29 18:05:54] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+[2017-12-29 18:05:54] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+[2017-12-29 18:05:54] select `uid`, `user_account` from `fb_user`
+[2017-12-29 18:06:07] select `aid` from `fb_article` where (`original_id` = '0I0a1Krk') limit 1
+[2017-12-29 18:06:16] insert into `fb_article` (`title`, `content`, `small_pic`, `ctime`, `article_status`, `original_id`) values ('2017影响健康的十大关键词出炉，你占了几条？', '
+<p><span>距离2017年结束只剩下3天了。</span></p>
+<p><span>在这一年里，你熬夜加班拼命向前奔跑，发际线却不知不觉地向后退；你依旧通宵唱K聚会喝酒，却默默带上了保温杯，里面还不忘放两粒枸杞；你偶尔也会吃麻辣烫炸鸡喝冷饮，但多数时候你选择米粥和热茶；曾经你睡懒觉可以睡到<a href="">太阳</a>下山，现在能一觉睡到8点已经是超长发挥了…</span></p>
+<p><span> </span></p>
+<p><span>无论是“养生朋克”还是“保温杯”，不管是“第一批90后”还是“油腻的中年男人”，在2017这一年，我们比任何时候都更加重视<a href="">健康</a>，也对自己的身体愈发敏感。</span></p>
+<p><span>今天，</span><span><span><strong>国内移动健</strong></span></span><span><span><strong>康管理平台——妙健康</strong></span>根据用户大数据总结了2017年度健康十大热词，并发布《2017年度健康行为大数据分析报告》，一起来看看你占了几条~</span></p>
+<section><section><section><p><strong>久坐</strong></p></section></section></section><section><section><section><p><span>危害与吸烟相当，女性更爱坐着</span></p></section></section></section><p><span> </span></p>
+<p><span>妙健康对不同性别人群的每天久坐时间做了统计，数据显示60%以上用户久坐时间长达6小时，其中女性占比达到70.82%，表明女性比男性静坐时间更久。从地域上来看，久坐时间较多的人群分布在山东、辽宁、山西、河北、安徽、广西、广东等地区，其中辽宁最高。</span></p>
+<section><p><span id="article-img-0" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2017/12/29/1514541967/15145419671901330187.png"></span></p></section><section><strong><span>数据来源于妙健康</span></strong></section><p><span>专家指出，<strong>久坐对健康的伤害与吸烟相当，</strong>我们应该像对待禁烟一样，把久坐问题重视起来。坐着时间较长的人，患上糖尿病和<a href="">心脏病</a>的几率高出一倍，久坐的人更容易患上肾病，特别是女性。</span></p>
+<section><section><section><section><section><section><p><span>别坐着了，起来去接杯水吧。</span></p></section></section></section></section></section></section><section><section><section><p><strong>饮食时差</strong></p></section></section></section><p><span>男性更注重饮食规律性</span></p>
+<p><span> </span></p>
+<p><span>妙健康大数据显示，在<a href="">日常饮食</a>中，一半的人饮食比较规律。其中，男性更注重饮食的规律性。</span></p>
+<section><p><span id="article-img-1" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2017/12/29/1514541967/151454196768638210.png"></span></p></section><section><p><strong><span>数据来源于妙健康</span></strong></p></section><p><span> </span></p>
+<p><span>“年轻<a href="">上班族</a>多数面临‘压力胃<span>’</span>。早上空着肚子挤<a href="">地铁</a>，飞奔到单位一脸紧张地去开早会。饥肠辘辘坐到中午吃午餐，在巨大的工作压力和强烈的求生欲之下，三口两口吞下肚，立刻又开始在键盘间敲打耕作。”</span></p>
+<p><span>饮食不规律对身体的危害非常多，例如，损害胃肠，诱发胃肠疾病，引起营养失衡，产生便秘，身体排毒不畅，容易引起皮肤疾病等等，甚至身体肥胖都有可能与不规律饮食有关。</span></p>
+<section><section><section><section><section><section><p><span>与其孜孜不倦熬夜、勤勤恳恳<a href="">护肤</a>，一边暴饮暴食一边吃健胃消食片，喝<a href="">啤酒</a>加枸杞、喝可乐吃钙片，不如一日三餐好好吃饭。</span></p></section></section></section></section></section></section><section><section><section><p><strong><a href="">晚睡强迫症</a></strong></p></section></section></section><p><span> 18-35岁人群是晚睡重灾区</span></p>
+<p> </p>
+<p><span>白天辛苦工作，晚上努力追剧；终于决定去睡觉，可一躺下就忍不住拿<a href="">手机</a>；每天都上演着“今晚一定早睡”和“这么早睡好可惜”的心理斗争…这些<a href="">晚睡强迫症</a>的症状，你中了几条？</span></p>
+<section><section><section><span id="article-img-2" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2017/12/29/1514541967/15145419671705833361.png"></span></section></section></section><p><span>妙健康大数据显示，<strong>18-35岁人群是晚睡的重灾区。</strong>随着年龄的增长，大家更注重健康，在35岁以后年龄段人群晚睡的比例较少。</span></p>
+<p><span>有关专家对长期熬夜的人和坚持早睡早起的人进行对照研究，发现长期熬夜的人更易遭受<a href="">癌症</a>侵袭。熬夜使<a href="">睡眠</a>规律发生紊乱，影响细胞正常分裂，从而导致细胞突变，产生癌细胞。</span></p>
+<p><span> </span></p>
+<section><section><section><section><section><section><p><span>放下<a href="">手机</a>，立地成佛</span></p></section></section></section></section></section></section><section><section><section><p><span> </span></p></section></section></section><section><section><section><p><strong>压力</strong></p></section></section></section><p><span>丧偶人群压力最大</span></p>
+<p><span>妙健康大数据显示，已婚人群有较大压力倾向的表现占比仅16.54%，是压力倾向最低的。<strong>丧偶人群的压力倾向最大。</strong></span></p>
+<section><section><section><span id="article-img-3" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2017/12/29/1514541967/1514541967904092758.png"></span></section></section></section><section><section><section><section><section><section><p><span>对单身狗的又一次暴击。</span></p></section></section></section></section></section></section><section><section><section><p><strong>低头族</strong></p></section></section></section><p><span>颈椎病年轻化</span></p>
+<p><span> </span></p>
+<p><span>专家介绍，在我们低头时，前屈极限(下巴碰到胸骨的状态)只能是45°。如果前屈幅度达到30°时，就可以影响到颈椎。如果颈椎长期处于极度前屈的异常稳定状态，就会对颈椎造成伤害，而<strong>这种危害比看<a href="">电脑</a>还要高几十倍。</strong></span></p>
+<section><section><section><span id="article-img-4" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2017/12/29/1514541967/15145419671886576739.png"></span></section></section></section><p><strong><span>现在年轻人至少把颈椎病提前了10年。</span></strong><span>经中国医学研究院不完全统计，我国门诊<a href="">体检</a>人群颈椎病检出率高达64.52%，女性患病率高于男性。</span></p>
+<section><section><section><section><section><section><p><span>身体昂首挺胸了，生活才能昂首挺胸</span></p></section></section></section></section></section></section><section><section><section><p><strong>重大疾病年轻化</strong></p></section></section></section><p><span>大病开始“盯”上年轻人</span></p>
+<p><span> </span></p>
+<p><span>健康大数据显示，<strong>重大疾病的高发期由传统的50－60岁陡然降到25-50岁。</strong>以往常见于老年人的心脑血管病、恶性肿瘤等大病，如今已开始“盯”上了年轻人，此外，<a href="">高血压</a>、糖尿病、肺癌、胃癌、<a href="">乳腺癌</a>、脂肪肝等疾病的发病年龄亦大幅提前。</span></p>
+<p><span id="article-img-5" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2017/12/29/1514541967/15145419671378861007.png"></span></p>
+<section><section><section><section><section><section><p><span>阳光正好，微风不燥，还可以走很长的路，还可以拥抱爱人，这不就是最好的生活吗？</span></p></section></section></section></section></section></section><section><section><section><p><strong>焦虑性失眠</strong></p></section></section></section><p><span>离异人群重度焦虑倾向占比最高</span></p>
+<p><span> </span></p>
+<p><span>焦虑性失眠是临床上最常见的失眠类型，大多数失眠属于这个类型，其原因多数为精神紧张、生气、工作或思想压力、环境变化等因素。妙健康大数据显示，男性焦虑人群占比要略高于女性。此外，不同的<a href="">婚姻</a>状态和不同职业也呈现出不同的焦虑倾向。</span></p>
+<section><section><section><span id="article-img-6" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2017/12/29/1514541967/15145419671081914491.png"></span></section></section></section><section><section><section><section><section><section><p><span>别让白天的孤勇奋战，变成夜晚的千军万马。</span></p></section></section></section></section></section></section><section><section><section><p><span> </span></p></section></section></section><section><section><section><p><strong>减肥</strong></p></section></section></section><p><span>男性减肥是因为真的胖，女性减肥是为了美</span></p>
+<p><span> </span></p>
+<p><span>减肥不再是女性的<a href="">专利</a>，越来越多男性加入了减肥大军。妙健康大数据发现了男女减肥的细微差别：在计划减肥的男性中大多男性体脂率（BFR）集中在25%以上的肥胖区间内，说明男性减肥是因为身体真的处在了肥胖状态；在计划减肥的女性体脂率（BFR）大多集中在20%~30%的正常范围内，说明女性更多是对“瘦”和“美”的追求。</span></p>
+<section><section><section><span id="article-img-7" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2017/12/29/1514541967/15145419671068669004.png"></span></section></section></section><section><section><section><section><section><section><p><span>千万不要得罪那些减肥成功的人，他们什么事都做得出来。</span></p></section></section></section></section></section></section><section><section><section><p><strong>保温杯</strong></p></section></section></section><p><span>中年大叔和90后竟然无缝衔接了</span></p>
+<p><span> </span></p>
+<p><span>传统<a href="">中医</a>认为人体以固阳为本。如果希望健康长寿，必须要温阳，而热水，是可以温阳的。与之相反，冷水是至寒之物。<strong>所以理论上不管是中年还是青少年都应该喝热水，</strong>只是人到中年后身体机能会下降，人体各器官系统功能开始缓缓衰减，更应该注意身体保健。</span></p>
+<section><section><section><span id="article-img-8" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2017/12/29/1514541967/15145419671002728643.png"></span></section></section></section><section><section><section><section><section><section><p><span>你是你，工作是工作；工作永远不会口渴，但你会。</span></p></section></section></section></section></section></section><section><section><section><p><strong>骑行</strong></p></section></section></section><p><span>环保又健康</span></p>
+<p><span> </span></p>
+<p><span>在共享单车风行的今天，骑行已经不只是单纯的代步行为，而是早已成为一种时髦、健康、环保的生活方式。在普遍缺乏运动和<a href="">亚健康</a>横行的一二线城市里，骑行也是一种健康的运动方式。</span></p>
+<section><p><span id="article-img-9" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2017/12/29/1514541967/15145419671826356488.png"></span></p></section><section><section><section><section><section><section><p><span>自行车的两只轮子，一只轮子载着风景，一只轮子载着健康</span></p></section></section></section></section></section></section><p><span> </span></p>
+<p><strong><span>为了<a href="">健康</a>，看完就早点睡吧，晚安。</span></strong></p>
+<p><span id="article-img-10" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2017/12/29/1514541967/1514541967173336242.png"></span></p>
+<p><span>本文仅代表作者观点，不代表本刊立场。</span></p>
+<span>点击原文阅读部分图文报告</span>
+', '["\/src\/resource\/smallpic\/2017\/12\/29\/1514541967\/15145419671901330187.png","\/src\/resource\/smallpic\/2017\/12\/29\/1514541967\/151454196768638210.png","\/src\/resource\/smallpic\/2017\/12\/29\/1514541967\/15145419671705833361.png","\/src\/resource\/smallpic\/2017\/12\/29\/1514541967\/1514541967904092758.png"]', '1514541967', '0', '0I0a1Krk')
+[2017-12-29 18:06:16] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-12-29 18:06:16] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+[2017-12-29 18:06:16] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+[2017-12-29 18:06:16] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+[2017-12-29 18:06:16] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+[2017-12-29 18:06:17] select count(*) as aggregate from `fb_article`
+[2017-12-29 18:06:17] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+[2017-12-29 18:06:23] select * from `fb_article` where `aid` = '9684' limit 1
+[2017-12-29 18:06:23] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2017-12-29 18:06:23] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+[2017-12-29 18:06:23] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+[2017-12-29 18:06:23] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+[2017-12-29 18:06:23] select `uid`, `user_account` from `fb_user`
+[2017-12-29 18:13:27] select * from `fb_article` where `aid` = '9684' limit 1
+[2017-12-29 18:13:46] select * from `fb_article` where `aid` = '9684' limit 1
+[2017-12-29 18:14:05] select * from `fb_article` where `aid` = '9684' limit 1
+[2017-12-29 18:14:25] select * from `fb_article` where `aid` = '9684' limit 1

@@ -1,0 +1,13 @@
+[2017-12-07 17:00:22] select * from `fb_admin` where `username` = 'admin' and `password` = '203b6d1f2a502c540000' limit 1
+[2017-12-07 17:00:22] select `powers` from `fb_role` where `id` = '1' limit 1
+[2017-12-07 17:00:22] select `name` from `fb_node` where `pid` > '0' limit 1
+[2017-12-07 17:00:22] update `fb_admin` set `last_time` = '1512637222', `last_ip` = '192.168.0.38' where `username` = 'admin' and `password` = '203b6d1f2a502c540000' and (`id` = '24') limit 1
+admin[2017-12-07 17:00:24] select `ctime`, `clicks`, `share`, `inter_access`, `read_article`, `histexternal_accessry` from `fb_operating` where `ctime` >= '1510045224' and `ctime` <= '1512576000' group by `ctime`
+admin[2017-12-07 17:00:26] select * from `fb_operating` where `ctime` >= '1510045226' and `ctime` <= '1512576000' order by `ctime` desc
+admin[2017-12-07 17:00:41] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-07 17:00:41] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2017-12-07 17:00:41] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2017-12-07 17:00:41] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2017-12-07 17:00:41] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2017-12-07 17:00:42] select count(*) as aggregate from `fb_article`
+admin[2017-12-07 17:00:42] select * from `fb_article` order by `ctime` desc limit 20 offset 0

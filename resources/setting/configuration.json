@@ -1,0 +1,77 @@
+[
+  {
+    "config_name": "网站资源域名",
+    "config_field": "resource_url",
+    "config_value": "http://xxxxxxxxxxx/"
+  },
+  {
+    "config_name": "分享链接",
+    "config_field": "share_url",
+    "config_value": "http://xxxxxxxxxx"
+  },
+  {
+    "config_name": "网站标题",
+    "config_field": "title",
+    "config_value": "健身網站"
+  },
+  {
+    "config_name": "section",
+    "config_field": "section",
+    "config_value": "健身網站"
+  },
+  {
+    "config_name": "作者",
+    "config_field": "author",
+    "config_value": "xxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  {
+    "config_name": "视图url",
+    "config_field": "view_url",
+    "config_value": "jk2.keepingfit.net"
+  },
+  {
+    "config_name": "分类ID",
+    "config_field": "tid",
+    "config_value": "2"
+  },
+  {
+    "config_name": "网站ID",
+    "config_field": "wid",
+    "config_value": "5"
+  },
+  {
+    "config_name": "广告位置1  列表页",
+    "config_field": "list",
+    "config_value": "filness_01"
+  },
+  {
+    "config_name": "广告位置2 文章内容广告",
+    "config_field": "article",
+    "config_value": "filness_02"
+  },
+  {
+    "config_name": "广告位置3  详情页面 活动广告",
+    "config_field": "article_hot",
+    "config_value": "filness_03"
+  },
+  {
+    "config_name": "文章右侧广告",
+    "config_field": "article_right",
+    "config_value": "filness_04"
+  },
+  {
+    "config_name": "文章右侧广告",
+    "config_field": "article_top",
+    "config_value": "filness_05"
+  },
+  {
+    "config_name": "appId",
+    "config_field": "appId",
+    "config_value": "792054400981212"
+  },
+  {
+    "config_name": "底部页脚",
+    "config_field": "footer",
+    "config_value": "2017 xxxxxxxxxxx"
+  }
+]

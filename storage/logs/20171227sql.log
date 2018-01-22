@@ -1,0 +1,94 @@
+[2017-12-27 10:50:22] select * from `fb_admin` where `username` = 'admin' and `password` = '203b6d1f2a502c540000' limit 1
+[2017-12-27 10:50:22] select `powers` from `fb_role` where `id` = '1' limit 1
+[2017-12-27 10:50:22] select `name` from `fb_node` where `pid` > '0' limit 1
+[2017-12-27 10:50:22] update `fb_admin` set `last_time` = '1514343022', `last_ip` = '192.168.0.53' where `username` = 'admin' and `password` = '203b6d1f2a502c540000' and (`id` = '24') limit 1
+admin[2017-12-27 10:50:23] select `ctime`, `clicks`, `share`, `inter_access`, `read_article`, `histexternal_accessry` from `fb_operating` where `ctime` >= '1511751023' and `ctime` <= '1514304000' group by `ctime`
+admin[2017-12-27 10:50:24] select * from `fb_operating` where `ctime` >= '1511751024' and `ctime` <= '1514304000' order by `ctime` desc
+admin[2017-12-27 10:50:27] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-27 10:50:27] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2017-12-27 10:50:27] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2017-12-27 10:50:27] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2017-12-27 10:50:27] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2017-12-27 10:50:27] select count(*) as aggregate from `fb_article`
+admin[2017-12-27 10:50:27] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2017-12-27 10:59:41] select * from `fb_article` where `aid` = '9681' limit 1
+admin[2017-12-27 10:59:41] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-27 10:59:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-27 10:59:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-27 10:59:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-27 10:59:41] select `uid`, `user_account` from `fb_user`
+admin[2017-12-27 10:59:51] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-27 10:59:51] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2017-12-27 10:59:51] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2017-12-27 10:59:51] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2017-12-27 10:59:51] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2017-12-27 10:59:52] select count(*) as aggregate from `fb_article`
+admin[2017-12-27 10:59:52] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2017-12-27 10:59:55] select * from `fb_article` where `aid` = '9683' limit 1
+admin[2017-12-27 10:59:55] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-27 10:59:55] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-27 10:59:55] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-27 10:59:55] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-27 10:59:55] select `uid`, `user_account` from `fb_user`
+admin[2017-12-27 10:59:59] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-27 10:59:59] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2017-12-27 10:59:59] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2017-12-27 10:59:59] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2017-12-27 10:59:59] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2017-12-27 11:00:00] select count(*) as aggregate from `fb_article`
+admin[2017-12-27 11:00:00] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2017-12-27 11:00:03] select * from `fb_article` where `aid` = '9681' limit 1
+admin[2017-12-27 11:00:03] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-27 11:00:03] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-27 11:00:03] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-27 11:00:03] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-27 11:00:03] select `uid`, `user_account` from `fb_user`
+admin[2017-12-27 11:00:06] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-27 11:00:06] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2017-12-27 11:00:06] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2017-12-27 11:00:06] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2017-12-27 11:00:06] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2017-12-27 11:00:07] select count(*) as aggregate from `fb_article`
+admin[2017-12-27 11:00:07] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2017-12-27 11:00:09] select * from `fb_article` where `aid` = '9678' limit 1
+admin[2017-12-27 11:00:09] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-27 11:00:09] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-27 11:00:09] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-27 11:00:09] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-27 11:00:09] select `uid`, `user_account` from `fb_user`
+admin[2017-12-27 11:24:15] select * from `fb_article` where `aid` = '9678' limit 1
+admin[2017-12-27 11:24:15] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-27 11:24:15] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-27 11:24:15] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-27 11:24:15] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-27 11:24:15] select `uid`, `user_account` from `fb_user`
+admin[2017-12-27 11:47:47] select * from `fb_article` where `aid` = '9678' limit 1
+admin[2017-12-27 11:47:47] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-27 11:47:47] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-27 11:47:47] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-27 11:47:47] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-27 11:47:47] select `uid`, `user_account` from `fb_user`
+admin[2017-12-27 11:53:41] select * from `fb_article` where `aid` = '9678' limit 1
+admin[2017-12-27 11:53:41] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-27 11:53:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-27 11:53:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-27 11:53:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-27 11:53:41] select `uid`, `user_account` from `fb_user`
+admin[2017-12-27 11:54:29] select * from `fb_article` where `aid` = '9678' limit 1
+admin[2017-12-27 11:54:29] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-27 11:54:29] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-27 11:54:29] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-27 11:54:29] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-27 11:54:29] select `uid`, `user_account` from `fb_user`
+admin[2017-12-27 11:54:54] select * from `fb_article` where `aid` = '9678' limit 1
+admin[2017-12-27 11:54:54] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-27 11:54:54] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-27 11:54:54] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-27 11:54:54] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-27 11:54:54] select `uid`, `user_account` from `fb_user`
+admin[2017-12-27 11:59:41] select * from `fb_article` where `aid` = '9678' limit 1
+admin[2017-12-27 11:59:41] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2017-12-27 11:59:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2017-12-27 11:59:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2017-12-27 11:59:41] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2017-12-27 11:59:41] select `uid`, `user_account` from `fb_user`

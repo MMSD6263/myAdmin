@@ -1,0 +1,500 @@
+[2018-01-04 09:10:16] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515028212'
+[2018-01-04 09:12:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515028323'
+[2018-01-04 09:14:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515028442'
+[2018-01-04 09:16:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515028563'
+[2018-01-04 09:18:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515028682'
+[2018-01-04 09:20:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515028803'
+[2018-01-04 09:22:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515028923'
+[2018-01-04 09:24:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515029042'
+[2018-01-04 09:26:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515029163'
+[2018-01-04 09:28:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515029283'
+[2018-01-04 09:30:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515029402'
+[2018-01-04 09:32:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515029523'
+[2018-01-04 09:34:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515029642'
+[2018-01-04 09:36:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515029762'
+[2018-01-04 09:38:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515029883'
+[2018-01-04 09:40:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515030002'
+[2018-01-04 09:42:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515030123'
+[2018-01-04 09:44:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515030243'
+[2018-01-04 09:46:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515030362'
+[2018-01-04 09:48:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515030483'
+[2018-01-04 09:50:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515030602'
+[2018-01-04 09:52:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515030723'
+[2018-01-04 09:54:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515030842'
+[2018-01-04 09:56:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515030963'
+[2018-01-04 09:58:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515031083'
+[2018-01-04 09:59:02] select SUM(share) as share, SUM(read_article) as read_article, SUM(inter_access) as inter_access, SUM(histexternal_accessry) as histexternal_accessry, SUM(views) as views, SUM(clicks) as clicks from `fb_article_log` where (`ctime` = '1514995200') limit 1
+[2018-01-04 09:59:02] select `id` from `fb_operating` where (`ctime` = '1514995200') limit 1
+[2018-01-04 09:59:02] insert into `fb_operating` (`share`, `read_article`, `inter_access`, `histexternal_accessry`, `views`, `clicks`, `click_rate`, `share_rate`, `guide_rate`, `ctime`) values ('', '', '', '', '', '', '0', '0', '0', '1514995200')
+[2018-01-04 10:00:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515031203'
+[2018-01-04 10:02:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515031322'
+[2018-01-04 10:04:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515031443'
+[2018-01-04 10:06:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515031562'
+[2018-01-04 10:08:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515031683'
+[2018-01-04 10:10:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515031802'
+[2018-01-04 10:12:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515031923'
+[2018-01-04 10:14:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515032043'
+[2018-01-04 10:16:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515032162'
+[2018-01-04 10:18:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515032283'
+[2018-01-04 10:20:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515032402'
+[2018-01-04 10:22:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515032523'
+[2018-01-04 10:24:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515032643'
+[2018-01-04 10:26:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515032763'
+[2018-01-04 10:28:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515032883'
+[2018-01-04 10:30:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515033003'
+[2018-01-04 10:32:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515033122'
+[2018-01-04 10:34:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515033243'
+[2018-01-04 10:36:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515033362'
+[2018-01-04 10:38:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515033483'
+[2018-01-04 10:40:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515033602'
+[2018-01-04 10:42:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515033723'
+[2018-01-04 10:44:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515033843'
+[2018-01-04 10:46:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515033962'
+[2018-01-04 10:48:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515034083'
+[2018-01-04 10:50:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515034202'
+[2018-01-04 10:52:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515034323'
+[2018-01-04 10:54:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515034443'
+[2018-01-04 10:56:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515034562'
+[2018-01-04 10:58:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515034683'
+[2018-01-04 10:59:03] select SUM(share) as share, SUM(read_article) as read_article, SUM(inter_access) as inter_access, SUM(histexternal_accessry) as histexternal_accessry, SUM(views) as views, SUM(clicks) as clicks from `fb_article_log` where (`ctime` = '1514995200') limit 1
+[2018-01-04 10:59:03] select `id` from `fb_operating` where (`ctime` = '1514995200') limit 1
+[2018-01-04 10:59:03] update `fb_operating` set `share` = '', `read_article` = '', `inter_access` = '', `histexternal_accessry` = '', `views` = '', `clicks` = '', `click_rate` = '0', `share_rate` = '0', `guide_rate` = '0', `ctime` = '1514995200' where (`id` = '155283')
+[2018-01-04 11:00:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515034803'
+[2018-01-04 11:02:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515034922'
+[2018-01-04 11:04:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515035043'
+[2018-01-04 11:06:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515035163'
+[2018-01-04 11:08:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515035282'
+[2018-01-04 11:10:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515035403'
+[2018-01-04 11:12:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515035522'
+[2018-01-04 11:14:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515035642'
+[2018-01-04 11:16:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515035763'
+[2018-01-04 11:18:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515035882'
+[2018-01-04 11:20:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515036003'
+[2018-01-04 11:22:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515036123'
+[2018-01-04 11:24:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515036242'
+[2018-01-04 11:26:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515036363'
+[2018-01-04 11:28:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515036482'
+[2018-01-04 11:30:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515036603'
+[2018-01-04 11:32:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515036722'
+[2018-01-04 11:34:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515036843'
+[2018-01-04 11:36:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515036963'
+[2018-01-04 11:38:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515037082'
+[2018-01-04 11:40:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515037203'
+[2018-01-04 11:42:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515037323'
+[2018-01-04 11:44:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515037443'
+[2018-01-04 11:46:07] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515037566'
+[2018-01-04 11:48:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515037683'
+[2018-01-04 11:50:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515037803'
+[2018-01-04 11:52:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515037922'
+[2018-01-04 11:54:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515038043'
+[2018-01-04 11:56:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515038163'
+[2018-01-04 11:58:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515038283'
+[2018-01-04 11:59:02] select SUM(share) as share, SUM(read_article) as read_article, SUM(inter_access) as inter_access, SUM(histexternal_accessry) as histexternal_accessry, SUM(views) as views, SUM(clicks) as clicks from `fb_article_log` where (`ctime` = '1514995200') limit 1
+[2018-01-04 11:59:02] select `id` from `fb_operating` where (`ctime` = '1514995200') limit 1
+[2018-01-04 11:59:02] update `fb_operating` set `share` = '', `read_article` = '', `inter_access` = '', `histexternal_accessry` = '', `views` = '', `clicks` = '', `click_rate` = '0', `share_rate` = '0', `guide_rate` = '0', `ctime` = '1514995200' where (`id` = '155283')
+[2018-01-04 12:00:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515038403'
+[2018-01-04 12:02:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515038523'
+[2018-01-04 12:04:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515038642'
+[2018-01-04 12:06:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515038763'
+[2018-01-04 12:07:05] select * from `fb_admin` where `username` = 'admin' and `password` = '203b6d1f2a502c540000' limit 1
+[2018-01-04 12:07:05] select `powers` from `fb_role` where `id` = '1' limit 1
+[2018-01-04 12:07:05] select `name` from `fb_node` where `pid` > '0' limit 1
+[2018-01-04 12:07:05] update `fb_admin` set `last_time` = '1515038825', `last_ip` = '192.168.0.53' where `username` = 'admin' and `password` = '203b6d1f2a502c540000' and (`id` = '24') limit 1
+admin[2018-01-04 12:07:06] select `ctime`, `clicks`, `share`, `inter_access`, `read_article`, `histexternal_accessry` from `fb_operating` where `ctime` >= '1512446826' and `ctime` <= '1514995200' group by `ctime`
+admin[2018-01-04 12:07:07] select * from `fb_operating` where `ctime` >= '1512446827' and `ctime` <= '1514995200' order by `ctime` desc
+admin[2018-01-04 12:07:11] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-04 12:07:11] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-04 12:07:11] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-04 12:07:11] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-04 12:07:11] select `uid`, `user_account` from `fb_user`
+[2018-01-04 12:08:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515038882'
+admin[2018-01-04 12:08:14] select `aid` from `fb_article` where (`original_id` = '0I2w6eZR') limit 1
+admin[2018-01-04 12:08:14] insert into `fb_article` (`title`, `content`, `small_pic`, `ctime`, `article_status`, `original_id`) values ('流感发热别只知道吃布洛芬，今天专家教你几招实用的！', '
+<p>来源中国军网</p>
+<p>目前正值<a href="">流感</a>高发季节，学校、幼儿园等人群密集场所特别容易受到影响，一旦出现聚集性病例造成流感暴发，就会造成停工、停课等严重影响。尤其需要引起关注的是儿童、老年人、有慢性疾病的人群，这些人如果得了流感还容易引起各种各样的并发症，如果治疗不及时严重的甚至可能导致死亡。除了接种疫苗预防流感外，一旦罹患流感如何科学应对呢？为此我们采访了解放军第302医院感染性疾病诊疗与研究中心秦恩强副主任，他给出了四点建议。 </p>
+<span id="article-img-0" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/04/1515038894/151503889469988120.png"></span><p><strong>一、流感诊断慢不得</strong></p>
+<p>流感属于<a href="">呼吸道传染病</a>，引起流感的病原体包括甲型<a href="">H1N1</a>、<a href="">H3N2</a>、乙型流感病毒等。目前最主要的病原体是甲型流感病毒，包括甲型<a href="">H1N1</a>、<a href="">H3N2</a>。该病毒主要经呼吸道飞沫传播，患者感染后，潜伏期多数为2-4天，临床症状包括发热、<a href="">咳嗽</a>、<a href="">咽喉痛</a>、全身肌肉酸痛、乏力、<a href="">头痛</a>，部分患者甚至会出现腹泻和呕吐。绝大部分流感患者预后良好，病死率低，病程呈自限性，无并发症的患者通常5-10天可自愈。但老人、小孩、孕妇、有慢性疾病如哮喘、糖尿病、<a href="">肿瘤</a>、血液病、<a href="">免疫</a>功能受损的高危人群一旦感染，延误诊治可能会出现严重的并发症，如肺炎、心肌炎、心衰、呼吸衰竭、多脏器功能衰竭等，甚至可导致死亡。因此在流感季节如果出现上述呼吸道症状应及时到医院就诊，以免延误诊治造成严重后果。</p>
+<span id="article-img-1" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/04/1515038894/1515038894855983051.png"></span><p><strong>二、流感治疗急不得 </strong></p>
+<p>流感属于病毒性感染性疾病，虽然有比较有效的<a href="">抗病毒药</a>物，但病情恢复仍需要一个过程，一般需要5-10天，如果发生并发症病程还要更长。许多家长带孩子看病时，要求医生开好药、开贵药，甚至希望药到病除，恨不得马上就好。根据流感的上述特点，这是不科学的，流感的治疗需要时间，急不得，只要不发生严重并发症，绝大多数患者都会痊愈。</p>
+<span id="article-img-2" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/04/1515038894/15150388941414565386.png"></span><p><strong>三、流感用药乱不得</strong></p>
+<p>1.合理使用抗病毒药。流感属于由流感病毒引起的病毒性疾病，奥司他韦对流感病毒有良好的疗效，越早使用效果越好，最好在发病48小时以内使用，否则疗效会受到影响。许多人得病后不是第一时间去医院就诊，而是在家自行用药，病情容易延误，因此对于高危人群出现流感样症状后最好马上到医院进行早期诊断，及时使用<a href="">抗病毒药</a>。</p>
+<p>2.慎用抗菌药。抗菌药物对于流感病毒是无效的，使用前提是在流感基础上合并<a href="">细菌</a>感染，这需要专业知识，及时就医是最明智的选择。</p>
+<p>3.退热治疗。体温不太高时可采取物理降温如湿毛巾敷额头、酒精擦浴，高热时可使用解热镇痛药，如<a href="">对乙酰氨基酚</a>、<a href="">布洛芬</a>等，要注意有时候特别是在发病早期使用退热药效果不佳时不要频繁使用解热镇痛药以免引起严重的药物不良反应，可交替使用不同药物或采用其他方法退热，尤其特别注意的是儿童和青少年不要使用阿司匹林类退热药，可能会导致瑞氏综合征，这种疾病会影响身体的所有<a href="">器官</a>，其中对<a href="">肝脏</a>和<a href="">大脑</a>带来的危害最大。如果不及时治疗，会很快导致肝肾衰竭、脑损伤，甚至死亡。</p>
+<p>4.关于输液。输液并不能缩短流感病程，因此不建议对流感患者进行常规输液治疗，只要能口服就以口服治疗为主。高热也不是输液的绝对指征。但对于有严重的恶心、呕吐、腹泻等消化道症状的患者，或者出现了明显的内环境紊乱，或者有其他特殊情况时可以有针对性的输液治疗。</p>
+<p>5.关于中药。中药对于缓解流感病情还有有帮助的，也需要早期使用，如<a href="">感冒</a>清热颗粒、小柴胡片等，也可使用葱白、<a href="">生姜</a>、<a href="">红糖</a>煮水喝缓解症状，当然最好有<a href="">中医</a>大夫辨证施治，更加针对性。</p>
+<span id="article-img-3" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/04/1515038894/15150388941972097039.png"></span><p><strong>四、流感意外拖不得</strong></p>
+<p>这里所指的流感意外是指在<a href="">流感</a>治疗过程中，患者病情恢复不顺利，持续得不到好转，甚至出现了肺炎、心肌炎、<a href="">脑炎</a>、反复惊厥等严重的并发症，这需要引起足够的警惕，以免延误诊断造成严重后果。一般来说，患者如果高热提示持续48-72小时不退就要引起重视了，这时候需要详细的了解症状，如果出现<a href="">胸闷</a>、<a href="">咳嗽</a>、咳痰、心慌、<a href="">头痛</a>、恶心、呕吐等症状，应立即到医院进行检查，化验血常规等炎症指标、胸片或肺部CT检查、心电图检查，必要时进行头颅CT、MRI、脑电图检查，也可选择腰椎穿刺检查明确诊断，及早进行干预和治疗，改善预后。对于高热惊厥，要区分不同情况。高热惊厥是指小儿在芦柑早期，体温升高时发生的惊厥，主要表现为突然发生的全身或局部肌群的强直性或阵挛性抽搐，双眼球凝视、<a href="">斜视</a>、发直或上翻，伴意识丧失。高热惊厥分为单纯性高热惊厥和复杂性高热惊厥两种。各年龄期（除新生儿期）小儿均可发生，以6个月至4岁多见，单纯性高热惊厥愈后良好，复杂性高热惊厥预后则较差。一旦出现反复惊厥，应立即到医院就诊。 </p>
+<span id="article-img-4" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/04/1515038894/15150388941168219786.png"></span>
+', '["\/src\/resource\/smallpic\/2018\/01\/04\/1515038894\/151503889469988120.png","\/src\/resource\/smallpic\/2018\/01\/04\/1515038894\/1515038894855983051.png","\/src\/resource\/smallpic\/2018\/01\/04\/1515038894\/15150388941414565386.png","\/src\/resource\/smallpic\/2018\/01\/04\/1515038894\/15150388941972097039.png"]', '1515038894', '0', '0I2w6eZR')
+admin[2018-01-04 12:08:15] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-04 12:08:15] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-04 12:08:15] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-04 12:08:15] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-04 12:08:15] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-04 12:08:16] select count(*) as aggregate from `fb_article`
+admin[2018-01-04 12:08:16] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-04 12:09:30] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-04 12:09:30] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-04 12:09:30] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-04 12:09:30] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-04 12:09:30] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-04 12:09:31] select count(*) as aggregate from `fb_article`
+admin[2018-01-04 12:09:31] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-04 12:09:34] select * from `fb_article` where `aid` = '9687' limit 1
+admin[2018-01-04 12:09:34] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-04 12:09:34] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-04 12:09:34] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-04 12:09:34] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-04 12:09:34] select `uid`, `user_account` from `fb_user`
+[2018-01-04 12:10:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515039003'
+[2018-01-04 12:12:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515039123'
+[2018-01-04 12:14:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515039243'
+[2018-01-04 12:16:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515039363'
+admin[2018-01-04 12:17:13] select * from `fb_article` where `aid` = '9687' limit 1
+admin[2018-01-04 12:17:13] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-04 12:17:13] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-04 12:17:13] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-04 12:17:13] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-04 12:17:13] select `uid`, `user_account` from `fb_user`
+admin[2018-01-04 12:17:42] select `ctime`, `clicks`, `share`, `inter_access`, `read_article`, `histexternal_accessry` from `fb_operating` where `ctime` >= '1512447462' and `ctime` <= '1514995200' group by `ctime`
+admin[2018-01-04 12:17:43] select * from `fb_operating` where `ctime` >= '1512447463' and `ctime` <= '1514995200' order by `ctime` desc
+admin[2018-01-04 12:17:46] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-04 12:17:46] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-04 12:17:46] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-04 12:17:46] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-04 12:17:46] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-04 12:17:47] select count(*) as aggregate from `fb_article`
+admin[2018-01-04 12:17:47] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-04 12:18:00] select * from `fb_article` where `aid` = '9681' limit 1
+admin[2018-01-04 12:18:00] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-04 12:18:00] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-04 12:18:00] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-04 12:18:00] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-04 12:18:00] select `uid`, `user_account` from `fb_user`
+[2018-01-04 12:18:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515039483'
+admin[2018-01-04 12:19:34] select `ctime`, `clicks`, `share`, `inter_access`, `read_article`, `histexternal_accessry` from `fb_operating` where `ctime` >= '1512447574' and `ctime` <= '1514995200' group by `ctime`
+admin[2018-01-04 12:19:35] select * from `fb_operating` where `ctime` >= '1512447575' and `ctime` <= '1514995200' order by `ctime` desc
+admin[2018-01-04 12:19:49] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-04 12:19:49] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-04 12:19:49] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-04 12:19:49] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-04 12:19:49] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-04 12:19:50] select count(*) as aggregate from `fb_article`
+admin[2018-01-04 12:19:50] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+admin[2018-01-04 12:20:00] select * from `fb_article` where `aid` = '9687' limit 1
+admin[2018-01-04 12:20:00] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-04 12:20:00] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-04 12:20:00] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-04 12:20:00] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-04 12:20:00] select `uid`, `user_account` from `fb_user`
+[2018-01-04 12:20:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515039603'
+[2018-01-04 12:22:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515039723'
+[2018-01-04 12:24:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515039843'
+[2018-01-04 12:26:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515039962'
+[2018-01-04 12:28:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515040082'
+[2018-01-04 12:30:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515040202'
+[2018-01-04 12:32:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515040322'
+[2018-01-04 12:34:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515040443'
+[2018-01-04 12:36:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515040563'
+[2018-01-04 12:38:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515040682'
+[2018-01-04 12:40:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515040803'
+[2018-01-04 12:42:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515040922'
+[2018-01-04 12:44:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515041043'
+[2018-01-04 12:46:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515041163'
+[2018-01-04 12:48:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515041282'
+[2018-01-04 12:50:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515041403'
+[2018-01-04 12:52:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515041523'
+[2018-01-04 12:54:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515041642'
+[2018-01-04 12:56:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515041763'
+[2018-01-04 12:58:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515041882'
+[2018-01-04 12:59:02] select SUM(share) as share, SUM(read_article) as read_article, SUM(inter_access) as inter_access, SUM(histexternal_accessry) as histexternal_accessry, SUM(views) as views, SUM(clicks) as clicks from `fb_article_log` where (`ctime` = '1514995200') limit 1
+[2018-01-04 12:59:02] select `id` from `fb_operating` where (`ctime` = '1514995200') limit 1
+[2018-01-04 12:59:02] update `fb_operating` set `share` = '', `read_article` = '', `inter_access` = '', `histexternal_accessry` = '', `views` = '', `clicks` = '', `click_rate` = '0', `share_rate` = '0', `guide_rate` = '0', `ctime` = '1514995200' where (`id` = '155283')
+[2018-01-04 13:00:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515042002'
+[2018-01-04 13:02:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515042123'
+[2018-01-04 13:04:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515042243'
+[2018-01-04 13:06:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515042362'
+[2018-01-04 13:08:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515042483'
+[2018-01-04 13:10:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515042603'
+[2018-01-04 13:12:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515042722'
+[2018-01-04 13:14:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515042843'
+[2018-01-04 13:16:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515042962'
+[2018-01-04 13:18:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515043083'
+[2018-01-04 13:20:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515043203'
+[2018-01-04 13:22:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515043322'
+[2018-01-04 13:24:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515043443'
+[2018-01-04 13:26:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515043563'
+[2018-01-04 13:28:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515043683'
+[2018-01-04 13:30:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515043802'
+[2018-01-04 13:32:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515043923'
+[2018-01-04 13:34:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515044043'
+[2018-01-04 13:36:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515044162'
+[2018-01-04 13:38:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515044283'
+[2018-01-04 13:40:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515044403'
+[2018-01-04 13:42:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515044522'
+[2018-01-04 13:44:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515044643'
+[2018-01-04 13:46:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515044763'
+[2018-01-04 13:48:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515044883'
+[2018-01-04 13:50:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515045002'
+[2018-01-04 13:52:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515045123'
+[2018-01-04 13:54:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515045243'
+[2018-01-04 13:56:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515045363'
+[2018-01-04 13:58:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515045483'
+[2018-01-04 13:59:03] select SUM(share) as share, SUM(read_article) as read_article, SUM(inter_access) as inter_access, SUM(histexternal_accessry) as histexternal_accessry, SUM(views) as views, SUM(clicks) as clicks from `fb_article_log` where (`ctime` = '1514995200') limit 1
+[2018-01-04 13:59:03] select `id` from `fb_operating` where (`ctime` = '1514995200') limit 1
+[2018-01-04 13:59:03] update `fb_operating` set `share` = '', `read_article` = '', `inter_access` = '', `histexternal_accessry` = '', `views` = '', `clicks` = '', `click_rate` = '0', `share_rate` = '0', `guide_rate` = '0', `ctime` = '1514995200' where (`id` = '155283')
+[2018-01-04 14:00:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515045603'
+[2018-01-04 14:02:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515045723'
+[2018-01-04 14:04:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515045842'
+[2018-01-04 14:06:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515045963'
+[2018-01-04 14:08:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515046083'
+[2018-01-04 14:10:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515046203'
+[2018-01-04 14:12:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515046322'
+[2018-01-04 14:14:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515046443'
+[2018-01-04 14:16:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515046563'
+[2018-01-04 14:18:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515046683'
+[2018-01-04 14:20:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515046802'
+[2018-01-04 14:22:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515046923'
+[2018-01-04 14:24:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515047043'
+[2018-01-04 14:26:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515047163'
+[2018-01-04 14:28:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515047283'
+[2018-01-04 14:30:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515047403'
+[2018-01-04 14:32:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515047523'
+[2018-01-04 14:34:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515047643'
+[2018-01-04 14:36:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515047763'
+[2018-01-04 14:38:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515047883'
+[2018-01-04 14:40:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515048003'
+[2018-01-04 14:42:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515048123'
+[2018-01-04 14:44:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515048243'
+[2018-01-04 14:46:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515048362'
+[2018-01-04 14:48:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515048482'
+[2018-01-04 14:50:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515048602'
+[2018-01-04 14:52:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515048723'
+[2018-01-04 14:54:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515048843'
+[2018-01-04 14:56:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515048963'
+[2018-01-04 14:58:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515049083'
+[2018-01-04 14:59:03] select SUM(share) as share, SUM(read_article) as read_article, SUM(inter_access) as inter_access, SUM(histexternal_accessry) as histexternal_accessry, SUM(views) as views, SUM(clicks) as clicks from `fb_article_log` where (`ctime` = '1514995200') limit 1
+[2018-01-04 14:59:03] select `id` from `fb_operating` where (`ctime` = '1514995200') limit 1
+[2018-01-04 14:59:03] update `fb_operating` set `share` = '', `read_article` = '', `inter_access` = '', `histexternal_accessry` = '', `views` = '', `clicks` = '', `click_rate` = '0', `share_rate` = '0', `guide_rate` = '0', `ctime` = '1514995200' where (`id` = '155283')
+[2018-01-04 15:00:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515049202'
+[2018-01-04 15:02:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515049322'
+[2018-01-04 15:04:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515049443'
+[2018-01-04 15:06:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515049563'
+[2018-01-04 15:08:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515049683'
+[2018-01-04 15:10:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515049803'
+[2018-01-04 15:12:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515049923'
+[2018-01-04 15:14:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515050043'
+[2018-01-04 15:16:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515050162'
+[2018-01-04 15:18:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515050282'
+[2018-01-04 15:20:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515050402'
+[2018-01-04 15:22:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515050523'
+[2018-01-04 15:24:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515050643'
+[2018-01-04 15:26:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515050763'
+[2018-01-04 15:28:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515050883'
+[2018-01-04 15:30:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515051002'
+[2018-01-04 15:32:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515051123'
+[2018-01-04 15:34:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515051243'
+[2018-01-04 15:36:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515051363'
+[2018-01-04 15:38:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515051483'
+[2018-01-04 15:40:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515051602'
+[2018-01-04 15:40:11] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2018-01-04 15:40:11] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+[2018-01-04 15:40:11] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+[2018-01-04 15:40:11] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+[2018-01-04 15:40:11] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+[2018-01-04 15:40:12] select count(*) as aggregate from `fb_article`
+[2018-01-04 15:40:12] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+[2018-01-04 15:40:20] select * from `fb_article` where `aid` = '9687' limit 1
+[2018-01-04 15:40:20] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+[2018-01-04 15:40:20] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+[2018-01-04 15:40:20] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+[2018-01-04 15:40:20] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+[2018-01-04 15:40:20] select `uid`, `user_account` from `fb_user`
+[2018-01-04 15:42:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515051723'
+[2018-01-04 15:44:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515051843'
+[2018-01-04 15:46:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515051963'
+[2018-01-04 15:48:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515052083'
+[2018-01-04 15:50:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515052202'
+[2018-01-04 15:52:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515052323'
+[2018-01-04 15:54:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515052443'
+[2018-01-04 15:56:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515052563'
+[2018-01-04 15:58:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515052683'
+[2018-01-04 15:59:03] select SUM(share) as share, SUM(read_article) as read_article, SUM(inter_access) as inter_access, SUM(histexternal_accessry) as histexternal_accessry, SUM(views) as views, SUM(clicks) as clicks from `fb_article_log` where (`ctime` = '1514995200') limit 1
+[2018-01-04 15:59:03] select `id` from `fb_operating` where (`ctime` = '1514995200') limit 1
+[2018-01-04 15:59:03] update `fb_operating` set `share` = '', `read_article` = '', `inter_access` = '', `histexternal_accessry` = '', `views` = '', `clicks` = '', `click_rate` = '0', `share_rate` = '0', `guide_rate` = '0', `ctime` = '1514995200' where (`id` = '155283')
+[2018-01-04 16:00:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515052803'
+[2018-01-04 16:02:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515052923'
+[2018-01-04 16:04:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515053042'
+[2018-01-04 16:06:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515053163'
+[2018-01-04 16:08:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515053283'
+[2018-01-04 16:10:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515053403'
+[2018-01-04 16:12:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515053522'
+[2018-01-04 16:14:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515053643'
+[2018-01-04 16:16:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515053763'
+[2018-01-04 16:18:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515053882'
+[2018-01-04 16:20:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515054003'
+[2018-01-04 16:22:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515054123'
+[2018-01-04 16:24:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515054243'
+[2018-01-04 16:26:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515054362'
+[2018-01-04 16:28:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515054482'
+[2018-01-04 16:30:04] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515054604'
+[2018-01-04 16:32:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515054722'
+[2018-01-04 16:34:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515054842'
+[2018-01-04 16:36:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515054963'
+[2018-01-04 16:38:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515055083'
+[2018-01-04 16:40:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515055203'
+[2018-01-04 16:42:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515055322'
+[2018-01-04 16:44:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515055442'
+[2018-01-04 16:46:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515055563'
+[2018-01-04 16:48:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515055683'
+[2018-01-04 16:50:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515055803'
+[2018-01-04 16:52:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515055923'
+[2018-01-04 16:54:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515056043'
+[2018-01-04 16:56:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515056163'
+[2018-01-04 16:58:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515056283'
+[2018-01-04 16:59:03] select SUM(share) as share, SUM(read_article) as read_article, SUM(inter_access) as inter_access, SUM(histexternal_accessry) as histexternal_accessry, SUM(views) as views, SUM(clicks) as clicks from `fb_article_log` where (`ctime` = '1514995200') limit 1
+[2018-01-04 16:59:03] select `id` from `fb_operating` where (`ctime` = '1514995200') limit 1
+[2018-01-04 16:59:03] update `fb_operating` set `share` = '', `read_article` = '', `inter_access` = '', `histexternal_accessry` = '', `views` = '', `clicks` = '', `click_rate` = '0', `share_rate` = '0', `guide_rate` = '0', `ctime` = '1514995200' where (`id` = '155283')
+[2018-01-04 17:00:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515056403'
+[2018-01-04 17:02:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515056523'
+[2018-01-04 17:04:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515056643'
+[2018-01-04 17:06:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515056763'
+[2018-01-04 17:08:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515056882'
+[2018-01-04 17:10:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515057002'
+[2018-01-04 17:12:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515057123'
+[2018-01-04 17:12:44] select * from `fb_admin` where `username` = 'admin' and `password` = '203b6d1f2a502c540000' limit 1
+[2018-01-04 17:12:44] select `powers` from `fb_role` where `id` = '1' limit 1
+[2018-01-04 17:12:44] select `name` from `fb_node` where `pid` > '0' limit 1
+[2018-01-04 17:12:44] update `fb_admin` set `last_time` = '1515057164', `last_ip` = '192.168.0.53' where `username` = 'admin' and `password` = '203b6d1f2a502c540000' and (`id` = '24') limit 1
+admin[2018-01-04 17:12:45] select `ctime`, `clicks`, `share`, `inter_access`, `read_article`, `histexternal_accessry` from `fb_operating` where `ctime` >= '1512465165' and `ctime` <= '1514995200' group by `ctime`
+admin[2018-01-04 17:12:46] select * from `fb_operating` where `ctime` >= '1512465166' and `ctime` <= '1514995200' order by `ctime` desc
+admin[2018-01-04 17:12:48] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-04 17:12:48] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '1'
+admin[2018-01-04 17:12:48] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '2'
+admin[2018-01-04 17:12:48] select `cid`, `column_name` from `fb_type_column` where `column_status` = '1' and `tid` = '3'
+admin[2018-01-04 17:12:49] select `uid`, `user_account` from `fb_user`
+[2018-01-04 17:14:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515057243'
+[2018-01-04 17:16:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515057363'
+admin[2018-01-04 17:16:39] select `aid` from `fb_article` where (`original_id` = '0I3RVXvY') limit 1
+admin[2018-01-04 17:16:42] insert into `fb_article` (`title`, `content`, `small_pic`, `ctime`, `article_status`, `original_id`) values ('永远不要忽视这4种经期出现的问题！可能是你的身体在求救！', '
+<!-- wemedia true --><div id="imedia-article" class="imedia-article">
+<p style="text-align: start">对于很多女性朋友来说，</p>
+<p style="text-align: start">痛经是一件正常的事：</p>
+<p style="text-align: start">每次月经来时特别痛，</p>
+<p style="text-align: start">认为咬牙忍受几天就会雨过天晴了。</p>
+<p style="text-align: start">但是月经正常与否是女性身体<a href="">健康</a>的体现，</p>
+<p><span id="article-img-0" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/04/1515057399/15150573991137785558.png"></span>图片来源于网络</p>
+<p style="text-align: start"><span>如果在<a href="">经期</a>出现以下症状千万不能忽视！</span></p>
+<p style="text-align: start"><span>1.突然和集中的<a href="">痉挛</a></span></p>
+<p style="text-align: start"><span>疑似疾病：<a href="">子宫内膜</a>异位</span></p>
+<p style="text-align: start">如果你在生理期经历过因为<a href="">痉挛</a>引起的无法忍受的疼痛，那么这可能是<a href="">子宫内膜</a>异位。</p>
+<p style="text-align: start">这是一种本应该子宫内部生长的细胞突然开始从子宫外壁生长的症状，这也是为什么疼痛难忍并且不正常。</p>
+<p style="text-align: start"><span>继发性痛经是<a href="">子宫内膜异位症</a>最典型的症状，还伴有月经量过多、经期长，同时也可能出现性交痛、肛门坠胀、尿频尿痛等症状。</span></p>
+<p style="text-align: start">如果认为这只是痛经，就很可能忽略子宫内膜异位症。</p>
+<p style="text-align: start">注意，它可能造成输卵管粘连、堵塞而影响卵巢功能导致不孕症和<a href="">妇科炎症</a>等并发症。</p>
+<p style="text-align: start"><span>2.月经没有出现</span></p>
+<p style="text-align: start"><span>疑似疾病：<a href="">多囊卵巢综合征</a></span></p>
+<p style="text-align: start">两次或以上的月经没来可能预示着一些不太好的事情，比如<a href="">荷尔蒙</a>失调，<a href="">甲状腺</a>问题，过早绝经或者压力。</p>
+<p style="text-align: start">有一些病例中，月经的缺席会引起一些不正常细胞更多的增长，这是<a href="">癌症</a>之前的潜在症状，例如，多囊卵巢综合症。</p>
+<p style="text-align: start"><span><a href="">多囊卵巢综合征</a>是最常见的妇科内分泌疾病之一，以雄激素过高、持续无排卵、卵巢多囊改变为特征。</span></p>
+<p style="text-align: start"><span><a href="">月经失调</a>是最常见的症状，多是月经周期延长（35天～6月），甚至<a href="">闭经</a>，也可以表现为不规则出血。</span></p>
+<p style="text-align: start">它可能会造成患者<span>不孕、体型肥胖</span><span>（以腹部肥胖为主）</span>。</p>
+<p style="text-align: start">一些患者会出现<span>阴唇、颈背部、腋下和腹股沟等皮肤皱褶处的灰褐色色素沉着</span>，皮肤增厚，对称分布，称为<span>黑棘皮症</span>。</p>
+<p><span id="article-img-1" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/04/1515057399/15150573992005899428.png"></span>图片来源于网络</p>
+<p style="text-align: start"><span>3.流血过多或者周期超过10天</span></p>
+<p style="text-align: start"><span>疑似疾病：<a href="">子宫内膜息肉</a>或<a href="">子宫肌瘤</a></span></p>
+<p style="text-align: start">如果你经量过多，这可能意味着不同的内科问题，比如肌瘤或者息肉。</p>
+<p style="text-align: start">这种情况需要<span>紧急的医疗干预。</span></p>
+<p style="text-align: start">子宫肌瘤是妇科最常见的良性肿瘤，也有异常阴道流血史<span>，除了有异常出血史外还伴有下腹包块、压迫症状、腰酸背痛等症状;</span></p>
+<p style="text-align: start"><a href="">子宫内膜息肉</a>与子宫肌瘤都可长在子宫腔内，但子宫肌瘤除了长在宫腔里，还可以长在更深层。</p>
+<p style="text-align: start"><span>4.非正常流血</span></p>
+<p style="text-align: start"><span>疑似疾病：盆腔内肿瘤</span></p>
+<p style="text-align: start">如果你正在服用避孕药，那么两次月经周期之间的非正常流血症状是完全正常的。</p>
+<p style="text-align: start">如果不是，最好去检查一下，看看是否存在<a href="">卵巢囊肿</a>或子宫肌瘤的情况。</p>
+<p style="text-align: start">一般子宫肌瘤患者会有下腹坠胀、腰背疼痛等感觉。</p>
+<p style="text-align: start">而感觉有肿块压迫的疼痛可能是卵巢囊肿。</p>
+<p style="text-align: start">如果<span>突然腹痛，剧烈难忍，甚至伴有阴道出血，很可能是<a href="">子宫肌瘤</a>或<a href="">卵巢囊肿</a>发生了扭转，必须立即就医！</span></p>
+<p style="text-align: start">而且<a href="">妇科肿瘤</a>往往伴随着各种妇科疾病和<a href="">妇科炎症</a>如宫颈炎、<a href="">盆腔炎</a>，附件炎等并发症，如有不适，务必加以重视。</p>
+<p><span id="article-img-2" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/04/1515057399/15150573991037432453.png"></span>图片来源于网络</p>
+<p style="text-align: start"><span>提醒：</span></p>
+<p style="text-align: start">很多人认为<a href="">妇科肿瘤</a>似乎并不严重，只要肿瘤切除就可以安然无恙，<span>其实有部分妇科恶性肿瘤在初期是难以发现的，而这类肿瘤，往往都存在着<a href="">癌变</a>的危险。</span></p>
+<p style="text-align: start"><span>月经期间，女性有可能容易出现这些不适</span></p>
+<p style="text-align: start"><span>①痛</span></p>
+<p style="text-align: start">不少女性来月经的时候容易出现经痛的问题，<span>除了是不良生活习惯导致以外，还有可能是患上了上面提及的<a href="">子宫内膜异位症</a>等疾病。</span></p>
+<p style="text-align: start">因此，女性如果有痛经困扰的话，请及早到医院检查、及早治疗。</p>
+<p style="text-align: start"><span>②痒</span></p>
+<p style="text-align: start">若经期出现<span>外阴瘙痒</span>的问题，<span>除了是卫生巾不干净、质量不达标、未及时更换等原因，还有可能是外阴感染出现炎症引起的。</span></p>
+<p style="text-align: start">如果经期发痒的问题反复出现，<span>不仅会让外阴变黑还会使其变粗糙。</span></p>
+<p style="text-align: start">因此除了选择适合的卫生巾外，若出现瘙痒的情况就要及时治疗外阴疾病。</p>
+<p style="text-align: start"><span>③烦</span></p>
+<p style="text-align: start">不少女生在<a href="">经期</a>特别烦和暴躁，很容易生气，这是<a href="">经前综合征</a>的其中一种，这时候女性朋友就要注意保持心情愉快，如听听爱听的歌，看看喜欢的<a href="">电视剧</a>等。</p>
+<p><span id="article-img-3" class="a-image"><img src="http://facebook.huihaowen.com/src/resource/2018/01/04/1515057399/15150573992019082124.png"></span></p>
+</div>
+<p class="yidian-wm-copyright-bottom">本文为一点号作者原创，未经授权不得转载</p>
+', '["\/src\/resource\/smallpic\/2018\/01\/04\/1515057399\/15150573991137785558.png","\/src\/resource\/smallpic\/2018\/01\/04\/1515057399\/15150573992005899428.png","\/src\/resource\/smallpic\/2018\/01\/04\/1515057399\/15150573991037432453.png","\/src\/resource\/smallpic\/2018\/01\/04\/1515057399\/15150573992019082124.png"]', '1515057399', '0', '0I3RVXvY')
+admin[2018-01-04 17:16:43] select `tid`, `type_name` from `fb_type` where `type_status` = '1'
+admin[2018-01-04 17:16:43] select `id`, `rid`, `username` from `fb_admin` where (`status` = '1')
+admin[2018-01-04 17:16:43] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '1')
+admin[2018-01-04 17:16:43] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '2')
+admin[2018-01-04 17:16:43] select `cid`, `column_name` from `fb_type_column` where (`column_status` = '1' and `tid` = '3')
+admin[2018-01-04 17:16:44] select count(*) as aggregate from `fb_article`
+admin[2018-01-04 17:16:44] select * from `fb_article` order by `ctime` desc limit 20 offset 0
+[2018-01-04 17:18:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515057483'
+[2018-01-04 17:20:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515057603'
+[2018-01-04 17:22:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515057723'
+[2018-01-04 17:24:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515057842'
+[2018-01-04 17:26:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515057962'
+[2018-01-04 17:28:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515058083'
+[2018-01-04 17:30:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515058203'
+[2018-01-04 17:32:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515058323'
+[2018-01-04 17:34:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515058443'
+[2018-01-04 17:36:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515058563'
+[2018-01-04 17:38:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515058682'
+[2018-01-04 17:40:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515058802'
+[2018-01-04 17:42:04] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515058923'
+[2018-01-04 17:44:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515059042'
+[2018-01-04 17:46:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515059163'
+[2018-01-04 17:48:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515059283'
+[2018-01-04 17:50:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515059403'
+[2018-01-04 17:52:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515059523'
+[2018-01-04 17:54:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515059643'
+[2018-01-04 17:56:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515059763'
+[2018-01-04 17:58:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515059883'
+[2018-01-04 17:59:03] select SUM(share) as share, SUM(read_article) as read_article, SUM(inter_access) as inter_access, SUM(histexternal_accessry) as histexternal_accessry, SUM(views) as views, SUM(clicks) as clicks from `fb_article_log` where (`ctime` = '1514995200') limit 1
+[2018-01-04 17:59:03] select `id` from `fb_operating` where (`ctime` = '1514995200') limit 1
+[2018-01-04 17:59:03] update `fb_operating` set `share` = '', `read_article` = '', `inter_access` = '', `histexternal_accessry` = '', `views` = '', `clicks` = '', `click_rate` = '0', `share_rate` = '0', `guide_rate` = '0', `ctime` = '1514995200' where (`id` = '155283')
+[2018-01-04 18:00:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515060002'
+[2018-01-04 18:02:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515060122'
+[2018-01-04 18:04:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515060243'
+[2018-01-04 18:06:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515060363'
+[2018-01-04 18:08:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515060483'
+[2018-01-04 18:10:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515060603'
+[2018-01-04 18:12:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515060723'
+[2018-01-04 18:14:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515060843'
+[2018-01-04 18:16:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515060962'
+[2018-01-04 18:18:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515061082'
+[2018-01-04 18:20:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515061203'
+[2018-01-04 18:22:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515061323'
+[2018-01-04 18:24:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515061443'
+[2018-01-04 18:26:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515061563'
+[2018-01-04 18:28:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515061683'
+[2018-01-04 18:30:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515061802'
+[2018-01-04 18:32:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515061923'
+[2018-01-04 18:34:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515062043'
+[2018-01-04 18:36:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515062163'
+[2018-01-04 18:38:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515062283'
+[2018-01-04 18:40:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515062402'
+[2018-01-04 18:42:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515062523'
+[2018-01-04 18:44:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515062643'
+[2018-01-04 18:46:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515062763'
+[2018-01-04 18:48:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515062883'
+[2018-01-04 18:50:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515063003'
+[2018-01-04 18:52:02] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515063122'
+[2018-01-04 18:54:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515063243'
+[2018-01-04 18:56:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515063363'
+[2018-01-04 18:58:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515063483'
+[2018-01-04 18:59:03] select SUM(share) as share, SUM(read_article) as read_article, SUM(inter_access) as inter_access, SUM(histexternal_accessry) as histexternal_accessry, SUM(views) as views, SUM(clicks) as clicks from `fb_article_log` where (`ctime` = '1514995200') limit 1
+[2018-01-04 18:59:03] select `id` from `fb_operating` where (`ctime` = '1514995200') limit 1
+[2018-01-04 18:59:03] update `fb_operating` set `share` = '', `read_article` = '', `inter_access` = '', `histexternal_accessry` = '', `views` = '', `clicks` = '', `click_rate` = '0', `share_rate` = '0', `guide_rate` = '0', `ctime` = '1514995200' where (`id` = '155283')
+[2018-01-04 19:00:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515063603'
+[2018-01-04 19:02:03] select `aid`, `tid`, `cid`, `wid` from `fb_article` where (`article_status` = '4') and `send_time` < '1515063723'
